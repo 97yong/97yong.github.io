@@ -28,6 +28,6 @@ JCR IF 2020 기준 6.954 (Q1)
   펌프의 특성에 직접 영향을 미치는 **베어링, 실, 임펠러**는 아주 중요한 부품임.
   진동신호는 원심 펌프를 모니터링하는데 널리 이용되었다.
   
-  본 논문에서는 <u>***bearing fault (BF), seal fault (SF), impeller fault (IF), bearing and impeller fault (BFIF), cavitation (CAV)***</u> 5가지의 고장이 사용됨.
+  본 논문에서는 ***<span style="color:blue"><u>bearing fault (BF), seal fault (SF), impeller fault (IF), bearing and impeller fault (BFIF), cavitation (CAV)</u></span>*** 5가지의 고장이 사용됨.
   
 ## 2. 
