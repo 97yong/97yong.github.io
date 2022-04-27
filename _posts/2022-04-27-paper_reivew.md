@@ -22,8 +22,12 @@ JCR IF 2020 기준 6.954 (Q1)
 
 2010년에 출판된 오래된 논문임.
 
-1. 서론
+## 1. 서론
 
   Centifugal pump(원심펌프)는 산업에서 중요하고 이용이 증가함에 따라 연속적인 모니터링이 필요함.
-  펌프의 특성에 직접 영향을 미치는 베어링, 실, 임펠러는 아주 중요한 부품임.
+  펌프의 특성에 직접 영향을 미치는 **베어링, 실, 임펠러**는 아주 중요한 부품임.
+  진동신호는 원심 펌프를 모니터링하는데 널리 이용되었다.
   
+  본 논문에서는 <span style="color:yellow"><u>bearing fault (BF), seal fault (SF), impeller fault (IF), bearing and impeller fault (BFIF), cavitation (CAV)</u></span> 5가지의 고장이 사용됨.
+  
+## 2. 
