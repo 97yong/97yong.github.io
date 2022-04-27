@@ -8,7 +8,7 @@ tags:
   - [pump]
 
 toc: true  # Table of Contents. 포스트의 헤더들만 보여주는 목차를 사용할 것인지의 여부. ture 로 해주면 포스트의 목차가 보이게 된다.
-toc_sticky: true # true로 해주면 목차가 스크롤을 따라 움직이게 된다!
+toc_sticky: False # true로 해주면 목차가 스크롤을 따라 움직이게 된다!
  
 date: 2022-04-27 # 글을 처음 작성한 날짜
 last_modified_at: 2022-04-27 # 이 글을 수정한 날짜.
