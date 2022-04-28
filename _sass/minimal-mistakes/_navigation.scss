@@ -527,7 +527,7 @@
   padding: 0.25rem 0;
   font-size: $type-size-3;
   font-family: $serif;
-  color: mix(#fff,#363636,50%);
+  color: mix(#fff,#363636,70%);
   border-bottom: 1px solid $border-color;
 }
 
@@ -548,7 +548,7 @@
   .nav__title {
     color: #fff;
     font-size: $type-size-5;
-    background: mix(#fff,$primary-color,30%);
+    background: mix(#fff,$primary-color,70%);
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
