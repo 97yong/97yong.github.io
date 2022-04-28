@@ -328,9 +328,9 @@ body {
   text-decoration: none;
   border: 1px solid $background-color;
   border-radius: $border-radius;
-  background-color: #fdffdb;
+  background-color: #e3fff8;
   font-family: $serif;
-  color: $primary-color;
+  color: #828282;
 
   &:hover {
     text-decoration: none;
@@ -346,9 +346,9 @@ body {
   text-decoration: none;
   border: 1px solid $background-color;
   border-radius: $border-radius;
-  background-color: mix(#fff, #fdffdb, 18%);
+  background-color: mix(#fff, #e3fff8, 20%);
   font-family: $serif;
-  color: mix(#fff, $primary-color, 2%);;
+  color: mix(#fff, #828282, 2%);;
 
   &:hover {
     text-decoration: none;
