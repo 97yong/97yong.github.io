@@ -3,7 +3,7 @@ title:  "[Pump] 관련 Paper Review"
 excerpt: "Expert Systems with Applications(2010)"
 
 categories:
-  - pump, paper
+  - pump
 tags:
   - [pump]
 
