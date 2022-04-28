@@ -1,5 +1,5 @@
 ---
-title:  "[Pump] 관련 Paper Review"
+title:  "[논문리뷰] Vibration based fault diagnosis of monoblock centrifugal pump using decision tree"
 excerpt: "Expert Systems with Applications(2010)"
 
 categories:
