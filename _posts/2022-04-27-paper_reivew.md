@@ -11,16 +11,18 @@ toc: True  # Table of Contents. 포스트의 헤더들만 보여주는 목차를
 toc_sticky: False # true로 해주면 목차가 스크롤을 따라 움직이게 된다!
  
 date: 2022-04-27 # 글을 처음 작성한 날짜
-last_modified_at: 2022-04-27 # 이 글을 수정한 날짜.
+last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 ---
 
-Sakthivel, N. R., V. Sugumaran, and SJESwA Babudevasenapati. "Vibration based fault diagnosis of monoblock centrifugal pump using decision tree." Expert Systems with Applications 37.6 (2010): 4040-4049.
+## 0. 들어가기 앞서
 
-2022-04-27 기준 220회 인용
+- Sakthivel, N. R., V. Sugumaran, and SJESwA Babudevasenapati. "Vibration based fault diagnosis of monoblock centrifugal pump using decision tree." Expert Systems with Applications 37.6 (2010): 4040-4049.
 
-JCR IF 2020 기준 6.954 (Q1)
+- 2022-04-27 기준 220회 인용
 
-2010년에 출판된 오래된 논문임.
+- JCR IF 2020 기준 6.954 (Q1)
+
+- 2010년에 출판된 오래된 논문임.
 
 ## 1. 서론
 
