@@ -89,7 +89,7 @@
 
       &.current,
       &.current.disabled {
-        color: #fff;
+        color: #5e5e5e;
         background: $primary-color;
       }
 
@@ -546,7 +546,7 @@
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    color: #5e5e5e;
     font-size: $type-size-5;
     background: mix(#fff,$primary-color,30%);
     border-top-left-radius: $border-radius;
