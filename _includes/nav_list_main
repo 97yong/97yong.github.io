@@ -19,14 +19,14 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "deep learning" %}
-                        <li><a href="/categories/paper" class="">deep learning ({{category[1].size}})</a></li>
+                        <li><a href="/categories/paper" class="">Deep Learning ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "pump" %}
-                        <li><a href="/categories/stl" class="">pump ({{category[1].size}})</a></li>
+                        <li><a href="/categories/stl" class="">PUMP ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
