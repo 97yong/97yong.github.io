@@ -28,7 +28,8 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
 
 ### 1.2. 아나콘다 다운로드
 
- - Download를 눌러주자! (Q. 버전은 어떤 것을 다운 받나요? A.가상환경을 만들 것이기 때문에 버전이 상관이 없다.)
+ - Download를 눌러주자!
+ - (Q. 버전은 어떤 것을 다운 받나요? A.가상환경을 만들 것이기 때문에 버전이 상관이 없습니다.)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/165922570-5d17c826-bec7-4cd1-8a08-b8bf1981b358.png" width="400" height="auto">
@@ -77,3 +78,17 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
 </p>
 
 - 대망의 주피터 노트북을 설치합니다.
+
+### 2.5. 주피터 노트북 실행
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/165924605-f06e1cb1-d283-4127-8042-75a3d1bcbf06.png" width="400" height="auto">
+</p>
+
+- 대망의 주피터 노트북을 설치합니다.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/165925033-7447eb29-0772-48bc-9c15-f1e1adb29edc.png" width="400" height="auto">
+</p>
+
+- 저는 class에 
