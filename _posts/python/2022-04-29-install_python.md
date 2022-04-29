@@ -82,16 +82,21 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
 ### 2.5. 주피터 노트북 실행
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165924605-f06e1cb1-d283-4127-8042-75a3d1bcbf06.png" width="400" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/165925033-7447eb29-0772-48bc-9c15-f1e1adb29edc.png" width="400" height="auto">
 </p>
 
 - 주피터 노트북을 실행합니다.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165925033-7447eb29-0772-48bc-9c15-f1e1adb29edc.png" width="400" height="auto">
-</p>
 
 - 저는 class에 jupyter notebook이 설치되어 있어서 가상환경을 바꾸겠습니다. (제 환경에는 jupyter lab이 깔려 있습니다.)
  > Q. jupyter notebook과 jupyter lab의 차이는 무엇인가요?
  >> A. 비슷하지만 처음할때는 jupyter notebook이 편하고, 이후 연구를 위해서는 파일을 빠르게 이동할 수 있는 jupyter lab이 편합니다.
 
+## 3. 주피터 노트북 실행
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/165967386-90283386-288a-448c-a368-edcb2d5d61d3.png" width="400" height="auto">
+</p>
+
+ - 주피터 노트북을 실행하면 다음과 같은 화면이 나오게 됩니다.
+
+ > 다음 게시글에서는 주피터 노트북에 대해 알아보겠습니다.
