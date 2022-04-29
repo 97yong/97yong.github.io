@@ -45,14 +45,30 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
  - <details><summary>Monoblock 이란?</summary>
    <p>
      Mono는 single을 의미한다. Monoblock은 수평 다단 펌프를 의미한다.
-  </p>
-  </details>
+   </p>
+   </details>
  - Cavitation을 시각화하기 위해 아크릴 파이프가 사용, 진동센서를 수집하기 위해 Accelerometer는 pump inlet부분에 사용.<br>
 
 ### 실험 절차
  - 2880 rpm으로 다른 delivery head를 가진채로 반복실험을 하였음.
- - 가속도 센서에 대해 샘플링주파수는 24kHz, 샘플길이는 1024
+ - Current: 11.5A / Head: 20m / Discharge: 392I/s / Power: 2hp
+ - 가속도 센서에 대해 샘플링주파수는 24kHz, 샘플길이는 1024 (길이가 길수록 통계적인 측정에 의미가 있으나, 길이가 많이 길게되면 컴퓨터 연산시간 증가 - 따라서 최적의 길이 선택) <br>
 
+![image](https://user-images.githubusercontent.com/104422044/165884278-03483f67-6515-49ee-af5c-7665c9c1adb3.png)<br>
+ - 위 그림은 시간 도메인에서 펌프의 진동신호를 나타냄.
+ - bearing fault (BF), seal fault (SF), impeller fault (IF), bearing and impeller fault (BFIF), cavitation (CAV) 그리고 normal condition 총 6개의 라벨을 가짐
+
+#### Bearing Fault
+ - 결함은 wire cut을 이용하여 만들어졌음.
+ - Outer Race Fault 즉, 외륜결함을 내어 신호를 생성
+ - 베어링 결함에 대한 여러 고장형태는 다른 논문을 참고하는 것이 도움이 될 것입니다.
+
+#### Seal defect
+ - Seal은 두가지 파트로 나뉨. 첫번째는 회전체와 맞닿는 rotating seal part(Inner), 두번째는 고정된 부품과 닿는 stationary seal seat(Outer)
+ - 건조한 조건하에 펌프가 작동될 때, 설치시에 무거운 기름이나 윤활제 사용, 설치시에 과도한 압력이 작용할 때 결함이 생김
+ - 두개중에 하나를 hammering해서 결함을 내었음
+
+#### Impeller defect
 
 ## 용어정리
  - Mono는 single을 의미한다. Monoblock은 수평 다단 펌프를 의미한다.
