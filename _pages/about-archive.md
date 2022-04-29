@@ -1,6 +1,6 @@
 ---
 title: "About"
-layout: posts
+layout: single
 permalink: /about/
 author_profile: True
 sidebar_main: True
