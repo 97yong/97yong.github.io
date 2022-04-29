@@ -26,17 +26,15 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
   <img src="https://user-images.githubusercontent.com/104422044/165921520-fcac1440-7863-40ea-afa5-49a9cf582a81.png" width="600" height="auto">
 </p>
 
-### 1.2. 아나콘다 다운로드
-
  - Download를 눌러주세요!
   > Q. 버전은 어떤 것을 다운 받나요? 
   >> A.가상환경을 만들 것이기 때문에 버전이 상관이 없습니다.
 
+### 1.2. 프롬프트 열기
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/165922570-5d17c826-bec7-4cd1-8a08-b8bf1981b358.png" width="400" height="auto">
 </p>
-
-### 1.3. 프롬프트 열기
 
  - 설치가 완료되면 윈도우 검색탭에 Anaconda Prompt (Anaconda3)이라는 파일을 찾을 수 있습니다다.
  - Click!
