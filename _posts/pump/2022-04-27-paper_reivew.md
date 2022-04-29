@@ -17,8 +17,6 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 ## 0. 들어가기 앞서
 ---
 
-- Sakthivel, N. R., V. Sugumaran, and SJESwA Babudevasenapati. "Vibration based fault diagnosis of monoblock centrifugal pump using decision tree." Expert Systems with Applications 37.6 (2010): 4040-4049.
-
 - 2022-04-27 기준 220회 인용
 
 - JCR IF 2020 기준 6.954 (Q1)
@@ -69,7 +67,37 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
  - 두개중에 하나를 hammering해서 결함을 내었음
 
 #### Impeller defect
+ - Cast Iron으로 만들어지고 지름이 125mm인 임펠러 2개가 사용됨.
+ - 두개중에 하나의 표면에 작은 부분을 제거해 결함을 생성
+
+#### Cavitation
+ - 펌프 작동의 초기단계에 행해짐.
+ - Delivery valve를 막은 후에 펌프를 시작함.
+ - Delivery valve를 완전히 열고, Suction valve를 점진적으로 닫음.<br>
+
+## 3. Feature Extraction
+---
+
+ - 고장진단을 위해 시간도메인의 고장진단을 위해 통계적인 방법이 사용됨.
+ - mean, standard error, median, standard deviation, sample variance, kurttosis, skewness, range, minimum, maximum, and sum
+ - 11개의 통계적인 방법이 사용됨
+ - 구체적인 수식은 본 논문을 참고
+
+## 4. Decision Tree
+---
+![image](https://user-images.githubusercontent.com/104422044/165886183-71bb94b9-fbae-4cb9-a87b-cbd106e09609.png)<br>
+ - Data mining 기술은 진동신호를 포함해 데이터구조로 부터 가치있는 지식을 찾기 위해 널리 사용됨.
+ - 본 논문에서는 여러 기술중에서 <u>Deicision Tree(DT)</u>를 사용.
+ - DT는 top-down의 형태로 회귀적으로(Recursively) 만들어진다.
+ - DT중에서 C4.5중에 하나인 J48 Algorithm을 사용 (알고리즘의 자세한 구조는 논문을 통해 확인)
+ - 
 
 ## 용어정리
  - Mono는 single을 의미한다. Monoblock은 수평 다단 펌프를 의미한다.
- - Delivery head: 펌프의 중심으로 부터 물이 전달되는 곳까지의 수직거리
+ - Delivery head: 펌프의 중심으로 부터 물이 전달되는 곳까지의 수직거리<br>
+ - ![image](https://user-images.githubusercontent.com/104422044/165886017-36c2af78-3218-4c6e-8f54-d989b3d4debf.png)<br>
+ - Cavitation: 유체의 속도 변화에 의한 압력변화로인해 유체 내에 공동이 생기는 현상 (한국어: 공동현상)
+
+## Reference
+ - Sakthivel, N. R., V. Sugumaran, and SJESwA Babudevasenapati. "Vibration based fault diagnosis of monoblock centrifugal pump using decision tree." Expert Systems with Applications 37.6 (2010): 4040-4049.
+ - https://www.voltekwater.com/hydrodynamic-cavitation
