@@ -36,7 +36,11 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 ## 2. Experimental studies
 
 ### 실험 세팅
-   ![image](https://user-images.githubusercontent.com/104422044/165876908-e70005da-8aab-497f-afec-350058d0800d.png)<br>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/165876908-e70005da-8aab-497f-afec-350058d0800d.png" width="auto" height="auto">
+</p>
+
  - 본 논문의 실험에서는 Monoblock 원심펌프가 사용됨.
  - <details><summary>Monoblock 이란?</summary>
    <p>
@@ -50,7 +54,10 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
  - Current: 11.5A / Head: 20m / Discharge: 392I/s / Power: 2hp
  - 가속도 센서에 대해 샘플링주파수는 24kHz, 샘플길이는 1024 (길이가 길수록 통계적인 측정에 의미가 있으나, 길이가 많이 길게되면 컴퓨터 연산시간 증가 - 따라서 최적의 길이 선택) <br>
 
-   ![image](https://user-images.githubusercontent.com/104422044/165884278-03483f67-6515-49ee-af5c-7665c9c1adb3.png){: width="300" height="auto"){: .center}<br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/165884278-03483f67-6515-49ee-af5c-7665c9c1adb3.png" width="auto" height="auto">
+</p>
+
  - 위 그림은 시간 도메인에서 펌프의 진동신호를 나타냄.
  - bearing fault (BF), seal fault (SF), impeller fault (IF), bearing and impeller fault (BFIF), cavitation (CAV) 그리고 normal condition 총 6개의 라벨을 가짐
 
@@ -83,7 +90,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 ## 4, 5. Decision Tree
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165886183-71bb94b9-fbae-4cb9-a87b-cbd106e09609.png" width="300" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/165886183-71bb94b9-fbae-4cb9-a87b-cbd106e09609.png" width="auto" height="auto">
 </p>
 
  - Data mining 기술은 진동신호를 포함해 데이터구조로 부터 가치있는 지식을 찾기 위해 널리 사용됨.
@@ -92,8 +99,10 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
  - DT중에서 C4.5중에 하나인 J48 Algorithm을 사용 (알고리즘의 자세한 구조는 논문을 통해 확인)
  
 ## 6. Result and Discussion
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/165887415-df21ab07-15c7-4073-8b45-bea1a8b4493b.png" width="auto" height="auto">
+</p>
 
-   ![image](https://user-images.githubusercontent.com/104422044/165887415-df21ab07-15c7-4073-8b45-bea1a8b4493b.png)
  - Efficiency 그래프는 정상과 고장이 확연히 차이가 나는 것을 볼 수 있음.
  - 뿐만아니라 Head 그래프도 고장이 나면 정상보다 낮아지는 경향을 보임 (특히, Impeller 고장은 Head를 더 급격하게 떨어뜨림)
  - Input power 그래프는 고장과 정상이 구분되지가 않는다. 이 때문에 input power 하나로 기준이 되어서는 안된다. (Impeller의 input power는 정상보다 낮은데 이는 고장으로 인해 head가 낮아지고 이로 인해 파워가 낮아진 것으로 보임)
@@ -104,7 +113,10 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 
  - Mono는 single을 의미한다. Monoblock은 수평 다단 펌프를 의미한다.
  - Delivery head: 펌프의 중심으로 부터 물이 전달되는 곳까지의 수직거리<br>
-   ![image](https://user-images.githubusercontent.com/104422044/165886017-36c2af78-3218-4c6e-8f54-d989b3d4debf.png){: width="300" height="auto"){: .center}<br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/165886017-36c2af78-3218-4c6e-8f54-d989b3d4debf.png" width="auto" height="auto">
+</p>
+
  - Cavitation: 유체의 속도 변화에 의한 압력변화로인해 유체 내에 공동이 생기는 현상 (한국어: 공동현상)
 
 ## Reference
