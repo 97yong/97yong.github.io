@@ -15,6 +15,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 ---
 
 ## 0. 들어가기 앞서
+---
 
 - Sakthivel, N. R., V. Sugumaran, and SJESwA Babudevasenapati. "Vibration based fault diagnosis of monoblock centrifugal pump using decision tree." Expert Systems with Applications 37.6 (2010): 4040-4049.
 
@@ -23,13 +24,16 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 - JCR IF 2020 기준 6.954 (Q1)
 
 - 2010년에 출판된 오래된 논문임.
-
+<br>
 ## 1. 서론
+---
 
   - Centifugal pump(원심펌프)는 산업에서 중요하고 이용이 증가함에 따라 연속적인 모니터링이 필요함.
   - 펌프의 특성에 직접 영향을 미치는 **베어링, 실, 임펠러**는 아주 중요한 부품임.
   - 진동신호는 원심 펌프를 모니터링하는데 널리 이용되었다.
   
   본 논문에서는 ***<span style="color:blue"><u>bearing fault (BF), seal fault (SF), impeller fault (IF), bearing and impeller fault (BFIF), cavitation (CAV)</u></span>*** 5가지의 고장이 사용됨.
-  
+<br>
+
 ## 2. 
+---
