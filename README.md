@@ -7,7 +7,6 @@ permalink: /about/
 공대생의 공부 블로그 🌙<br><br>
 
 ## INFORMATION
----
 
 <img src="https://user-images.githubusercontent.com/104422044/165870366-744de3fe-29cb-4a84-827a-ad82928a339f.png" align="left" style="width:200px; height:200px">
 
@@ -26,7 +25,7 @@ permalink: /about/
 
 
 ## AWARDS AND SCHOLARSHIPS
----
+
 ### 1. National Graduate Science & Technology Scholarship
 국가 이공계 장학금 (Mar. 2016 – Feb. 2017, Mar. 2019 - Feb. 2022)<br>
 info: <a href="https://www.gov.kr/portal/service/serviceInfo/B55252900005">https://www.gov.kr/portal/service/serviceInfo/</a>
@@ -45,7 +44,6 @@ info: <a href="http://www.ikef.or.kr/">http://www.ikef.or.kr/</a>
 
 
 ## COMPETITIONS
----
 
 ### 1. 2021 PHM Society 데이터 챌린지, 2021년 10월 - 4등
 Prognostics and Health Management (PHM) Society Data Challenge, October, 2021<br>
@@ -59,11 +57,10 @@ Link: <a href="https://me.snu.ac.kr/ko/board/news/view/15704">https://me.snu.ac.
 
 
 ## PUBLICATIONS
----
+
 
 ## International Conference
----
+
 
 ## Domestic Conference
----
 
