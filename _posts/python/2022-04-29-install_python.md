@@ -28,8 +28,9 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
 
 ### 1.2. 아나콘다 다운로드
 
- - Download를 눌러주자!
- - (Q. 버전은 어떤 것을 다운 받나요? A.가상환경을 만들 것이기 때문에 버전이 상관이 없습니다.)
+ - Download를 눌러주세요!
+  > Q. 버전은 어떤 것을 다운 받나요? 
+  >> A.가상환경을 만들 것이기 때문에 버전이 상관이 없습니다.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/165922570-5d17c826-bec7-4cd1-8a08-b8bf1981b358.png" width="400" height="auto">
@@ -37,7 +38,7 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
 
 ### 1.3. 프롬프트 열기
 
- - 설치가 완료되면 윈도우 검색탭에 Anaconda Prompt (Anaconda3)이라는 파일을 찾을 수 있다.
+ - 설치가 완료되면 윈도우 검색탭에 Anaconda Prompt (Anaconda3)이라는 파일을 찾을 수 있습니다다.
  - Click!
 
 ## 2. 가상환경 설치
@@ -49,7 +50,7 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
 </p>
 
  - conda create -n "원하는 가상환경 이름" python=3.7 을 입력한다.
- - 저는 주로 3.7버전을 사용하기 때문에 3.7이라고 입력을 하였고, 원하시는 버전에 따라 입력하시면 됩니다. (나중에 딥러닝 버전과 맞추기 위함)
+ - 저는 주로 3.7버전을 사용하기 때문에 3.7이라고 입력을 하였고, 원하시는 버전에 따라 입력하시면 됩니다. (나중에 딥러닝 버전과 맞추기 위함입니다.)
  - y를 누르면 설치가 완료됩니다.
 
 ### 2.2 가상환경 활성화
@@ -60,7 +61,8 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
 
 - 가상환경에 접근하는 코드입니다.
 - 이를 통해 환경이 base에서 사용자가 지정한 가상환경에 접근하게 됩니다.
-- (Q. 왜 가상환경을 만드나요? A. 가상환경은 자신이 원하는 버전을 다운받아 사용할 수 있고, 나중에 다양한 개발을 할 때 손쉽게 사용할 수 있습니다. 실제로 저는 파이토치는 yong이라는 가상환경에서 개발을 하고 TensorFlow는 yongtf라는 환경에서 개발을 합니다. 또한, 코스웍(학교수업)을 들을 때는 class라는 가상환경을 만들어 개발을 하고 있습니다.
+ > Q. 왜 가상환경을 만드나요?
+ >> A. 가상환경은 자신이 원하는 버전을 다운받아 사용할 수 있고, 나중에 다양한 개발을 할 때 손쉽게 사용할 수 있습니다. 실제로 저는 파이토치는 yong이라는 가상환경에서 개발을 하고 TensorFlow는 yongtf라는 환경에서 개발을 합니다. 또한, 코스웍(학교수업)을 들을 때는 class라는 가상환경을 만들어 개발을 하고 있습니다.
 
 ### 2.3. ipykernel 설치
 
@@ -77,7 +79,7 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
   <img src="https://user-images.githubusercontent.com/104422044/165924605-f06e1cb1-d283-4127-8042-75a3d1bcbf06.png" width="400" height="auto">
 </p>
 
-- 대망의 주피터 노트북을 설치합니다.
+- <u>주피터 노트북</u>을 설치합니다.
 
 ### 2.5. 주피터 노트북 실행
 
@@ -85,12 +87,13 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
   <img src="https://user-images.githubusercontent.com/104422044/165924605-f06e1cb1-d283-4127-8042-75a3d1bcbf06.png" width="400" height="auto">
 </p>
 
-- 대망의 주피터 노트북을 설치합니다.
+- 주피터 노트북을 실행합니다.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/165925033-7447eb29-0772-48bc-9c15-f1e1adb29edc.png" width="400" height="auto">
 </p>
 
 - 저는 class에 jupyter notebook이 설치되어 있어서 가상환경을 바꾸겠습니다. (제 환경에는 jupyter lab이 깔려 있습니다.)
-- Q. jupyter notebook과 jupyter lab의 차이는 무엇인가요? A. 비슷하지만 처음할때는 jupyter notebook이 편하고, 이후 연구를 위해서는 파일을 빠르게 이동할 수 있는 jupyter lab이 편합니다.
+ > Q. jupyter notebook과 jupyter lab의 차이는 무엇인가요?
+ >> A. 비슷하지만 처음할때는 jupyter notebook이 편하고, 이후 연구를 위해서는 파일을 빠르게 이동할 수 있는 jupyter lab이 편합니다.
 
