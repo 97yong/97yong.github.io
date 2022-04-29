@@ -40,7 +40,7 @@ info: <a href="https://shrm.snu.ac.kr/index.php?hCode=BOARD&bo_idx=2&idx=912&pag
 ### 3. Kwanjeong Educational Foundational Scholarship
 관정 이종환 교육재단 (May. 2022 - Present)
 info: <a href="http://www.ikef.or.kr/">http://www.ikef.or.kr/</a>
-
+<br>
 
 
 
