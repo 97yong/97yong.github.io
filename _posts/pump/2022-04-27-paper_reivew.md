@@ -14,7 +14,7 @@ date: 2022-04-27 # 글을 처음 작성한 날짜
 last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 ---
 
-## 0. 들어가기 앞서
+## 0. Information
 
 - 2022-04-27 기준 220회 인용
 
@@ -23,7 +23,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 - 2010년에 출판된 오래된 논문임.
 <br>
 
-## 1. 서론
+## 1. Introduction
 
   - Centifugal pump(원심펌프)는 산업에서 중요하고 이용이 증가함에 따라 연속적인 모니터링이 필요
   - 펌프의 특성에 직접 영향을 미치는 **베어링, 실, 임펠러**는 아주 중요한 부품
@@ -96,6 +96,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
  - DT중에서 C4.5중에 하나인 J48 Algorithm을 사용 (알고리즘의 자세한 구조는 논문을 통해 확인)
  
 ## 6. Result and Discussion
+  
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/165887415-df21ab07-15c7-4073-8b45-bea1a8b4493b.png" width="400" height="auto">
 </p>
@@ -106,7 +107,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
  - Feature는 두개를 사용함(standard error, minimum value, 알고리즘을 통해 11개 중에서 2개를 선택)
  - Test data 에 대해 100% 성능의 결과를 냈음 
 
-## 용어정리
+## Terminology
 
  - Mono는 single을 의미한다. Monoblock은 수평 다단 펌프를 의미
  - priming: 물을 가득 채우는 것
