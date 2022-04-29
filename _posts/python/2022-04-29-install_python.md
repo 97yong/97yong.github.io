@@ -94,7 +94,7 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
 ## 3. 주피터 노트북 실행
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165967386-90283386-288a-448c-a368-edcb2d5d61d3.png" width="400" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/165967386-90283386-288a-448c-a368-edcb2d5d61d3.png" width="800" height="auto">
 </p>
 
  - 주피터 노트북을 실행하면 다음과 같은 화면이 나오게 됩니다.
