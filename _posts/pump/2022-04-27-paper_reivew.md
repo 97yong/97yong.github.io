@@ -39,7 +39,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 ### 실험 세팅
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165876908-e70005da-8aab-497f-afec-350058d0800d.png" width="auto" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/165876908-e70005da-8aab-497f-afec-350058d0800d.png" width="400" height="auto">
 </p>
 
  - 본 논문의 실험에서는 Monoblock 원심펌프가 사용됨.
@@ -51,7 +51,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
  - 가속도 센서에 대해 샘플링주파수는 24kHz, 샘플길이는 1024 (길이가 길수록 통계적인 측정에 의미가 있으나, 길이가 많이 길게되면 컴퓨터 연산시간 증가 - 따라서 최적의 길이 선택) <br>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165884278-03483f67-6515-49ee-af5c-7665c9c1adb3.png" width="auto" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/165884278-03483f67-6515-49ee-af5c-7665c9c1adb3.png" width="700" height="auto">
 </p>
 
  - 위 그림은 시간 도메인에서 펌프의 진동신호를 나타냄.
@@ -86,7 +86,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 ## 4, 5. Decision Tree
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165886183-71bb94b9-fbae-4cb9-a87b-cbd106e09609.png" width="auto" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/165886183-71bb94b9-fbae-4cb9-a87b-cbd106e09609.png" width="600" height="auto">
 </p>
 
  - Data mining 기술은 진동신호를 포함해 데이터구조로 부터 가치있는 지식을 찾기 위해 널리 사용됨.
@@ -97,7 +97,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
  
 ## 6. Result and Discussion
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165887415-df21ab07-15c7-4073-8b45-bea1a8b4493b.png" width="auto" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/165887415-df21ab07-15c7-4073-8b45-bea1a8b4493b.png" width="400" height="auto">
 </p>
 
  - Efficiency 그래프는 정상과 고장이 확연히 차이가 나는 것을 볼 수 있음.
@@ -113,7 +113,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
  - Delivery head: 펌프의 중심으로 부터 물이 전달되는 곳까지의 수직거리
  - Cavitation: 유체의 속도 변화에 의한 압력변화로인해 유체 내에 공동이 생기는 현상 (한국어: 공동현상)
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165886017-36c2af78-3218-4c6e-8f54-d989b3d4debf.png" width="auto" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/165886017-36c2af78-3218-4c6e-8f54-d989b3d4debf.png" width="300" height="auto">
 </p>
 
 ## Reference
