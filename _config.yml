@@ -41,7 +41,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : "dark" # "light" (default) 
   utterances:
-    theme                : "photon-dark"
+    theme                : "github-light"
     issue_term           : "pathname"
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
