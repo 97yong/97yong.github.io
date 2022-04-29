@@ -28,17 +28,17 @@ permalink: /about/
 
 ### 1. National Graduate Science & Technology Scholarship
 국가 이공계 장학금 (Mar. 2016 – Feb. 2017, Mar. 2019 - Feb. 2022)<br>
-info: <a href="https://www.gov.kr/portal/service/serviceInfo/B55252900005">https://www.gov.kr/portal/service/serviceInfo/</a>
+Info: <a href="https://www.gov.kr/portal/service/serviceInfo/B55252900005">https://www.gov.kr/portal/service/serviceInfo/</a>
 <br>
 
 ### 2. SNU - Fellowship scholarship as the 4th BK21 Outstanding Graduate Student
 서울대 - BK21 우수대학원생 펠로우십 (Mar. 2022 - Present)<br>
-info: <a href="https://shrm.snu.ac.kr/index.php?hCode=BOARD&bo_idx=2&idx=912&page=view">https://shrm.snu.ac.kr/BOARD</a>
+Info: <a href="https://shrm.snu.ac.kr/index.php?hCode=BOARD&bo_idx=2&idx=912&page=view">https://shrm.snu.ac.kr/BOARD</a>
 <br>
 
 ### 3. Kwanjeong Educational Foundational Scholarship
 관정 이종환 교육재단 17기 (May. 2022 - Present)<br>
-info: <a href="http://www.ikef.or.kr/">http://www.ikef.or.kr/</a>
+Info: <a href="http://www.ikef.or.kr/">http://www.ikef.or.kr/</a>
 <br>
 
 
