@@ -91,4 +91,6 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
   <img src="https://user-images.githubusercontent.com/104422044/165925033-7447eb29-0772-48bc-9c15-f1e1adb29edc.png" width="400" height="auto">
 </p>
 
-- 저는 class에 
+- 저는 class에 jupyter notebook이 설치되어 있어서 가상환경을 바꾸겠습니다. (제 환경에는 jupyter lab이 깔려 있습니다.)
+- Q. jupyter notebook과 jupyter lab의 차이는 무엇인가요? A. 비슷하지만 처음할때는 jupyter notebook이 편하고, 이후 연구를 위해서는 파일을 빠르게 이동할 수 있는 jupyter lab이 편합니다.
+
