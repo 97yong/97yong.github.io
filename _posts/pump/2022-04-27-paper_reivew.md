@@ -31,6 +31,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
   
   - 본 논문에서는 ***<span style="color:blue"><u>bearing fault (BF), seal fault (SF), impeller fault (IF), bearing and impeller fault (BFIF), cavitation (CAV)</u></span>*** 5가지의 고장이 사용됨.
   - Decision Tree C4.5 algorithm이 사용됨 (2010년 당시 특징추출과 분류가 우수했음)
+  - 또한 이 당시에는 Decision Tree가 Feature Extraction과 classification이 동시에 가능한 유일한 알고리즘이었음.
 <br>
 
 ## 2. Experimental studies
@@ -91,6 +92,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
  - Data mining 기술은 진동신호를 포함해 데이터구조로 부터 가치있는 지식을 찾기 위해 널리 사용됨.
  - 본 논문에서는 여러 기술중에서 <u>Deicision Tree(DT)</u>를 사용.
  - DT는 top-down의 형태로 회귀적으로(Recursively) 만들어진다.
+ - <u>Feature Selection<u/>: contribution의 크기로 feature를 고름. 클래스안(intra)의 feature는 비슷하게, 클래스간(inter)에는 다르게
  - DT중에서 C4.5중에 하나인 J48 Algorithm을 사용 (알고리즘의 자세한 구조는 논문을 통해 확인)
  
 ## 6. Result and Discussion
@@ -106,8 +108,9 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 
 ## 용어정리
 
- - Mono는 single을 의미한다. Monoblock은 수평 다단 펌프를 의미한다.
- - Delivery head: 펌프의 중심으로 부터 물이 전달되는 곳까지의 수직거리<br>
+ - Mono는 single을 의미한다. Monoblock은 수평 다단 펌프를 의미
+ - priming: 물을 가득 채우는 것
+ - Delivery head: 펌프의 중심으로 부터 물이 전달되는 곳까지의 수직거리
  - Cavitation: 유체의 속도 변화에 의한 압력변화로인해 유체 내에 공동이 생기는 현상 (한국어: 공동현상)
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/165886017-36c2af78-3218-4c6e-8f54-d989b3d4debf.png" width="auto" height="auto">
