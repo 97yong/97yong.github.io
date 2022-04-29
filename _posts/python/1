@@ -1,0 +1,24 @@
+---
+title:  "[Lecture 1] Jupyter Notebook"
+excerpt: "주피터 노트북"
+
+categories:
+  - python
+tags:
+  - [python, coding]
+
+toc: True  # Table of Contents. 포스트의 헤더들만 보여주는 목차를 사용할 것인지의 여부. ture 로 해주면 포스트의 목차가 보이게 된다.
+toc_sticky: False # true로 해주면 목차가 스크롤을 따라 움직이게 된다!
+ 
+date: 2022-04-29 # 글을 처음 작성한 날짜
+last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
+---
+
+## 1. 주피터 노트북 파일생성
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/165967386-90283386-288a-448c-a368-edcb2d5d61d3.png" width="800" height="auto">
+</p>
+
+ - 주피터 노트북을 실행하면 다음과 같은 화면이 나오게 됩니다.
+ - 자신이 원하는 폴더로 이동합니다. (Python 파일이 있게 될 장소입니다.)
