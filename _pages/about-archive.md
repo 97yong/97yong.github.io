@@ -2,6 +2,6 @@
 title: "About"
 layout: about
 permalink: /about/
-author_profile: False
-sidebar_main: False
+author_profile: True
+sidebar_main: True
 ---
