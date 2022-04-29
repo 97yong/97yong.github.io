@@ -42,11 +42,6 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 </p>
 
  - 본 논문의 실험에서는 Monoblock 원심펌프가 사용됨.
- - <details><summary>Monoblock 이란?</summary>
-   <p>
-     Mono는 single을 의미한다. Monoblock은 수평 다단 펌프를 의미한다.
-   </p>
-   </details>
  - Cavitation을 시각화하기 위해 아크릴 파이프가 사용, 진동센서를 수집하기 위해 Accelerometer는 pump inlet부분에 사용.<br>
 
 ### 실험 절차
