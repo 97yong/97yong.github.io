@@ -7,13 +7,13 @@ sidebar_main: true
 ---
 
 # 공대생의 공부 블로그 🌙<br><br>
-
+---
 ## INFORMATION
-
+---
 <img src="https://user-images.githubusercontent.com/104422044/165870366-744de3fe-29cb-4a84-827a-ad82928a339f.png" align="left" style="width:250px; height:250px">
 
 ### Yong Chae Kim <br>
-
+---
 - System Health and Risk Management Laboratory
 
 - Seoul National University, South Korea
@@ -27,7 +27,7 @@ sidebar_main: true
 
 
 ## AWARDS AND SCHOLARSHIPS
-
+---
 ### 1. National Graduate Science & Technology Scholarship
  - 국가 이공계 장학금 (Mar. 2016 – Feb. 2017, Mar. 2019 - Feb. 2022)<br>
  - Info: <a href="https://www.gov.kr/portal/service/serviceInfo/B55252900005">https://www.gov.kr/portal/service/serviceInfo/</a>
@@ -46,7 +46,7 @@ sidebar_main: true
 
 
 ## COMPETITIONS
-
+---
 ### 1. 2021 PHM Society 데이터 챌린지, 2021년 10월 - 4등
  - Prognostics and Health Management (PHM) Society Data Challenge, October, 2021<br>
  - Leaderboard: <a href="https://data.phmsociety.org/2021-phm-conference-data-challenge-winners/">https://data.phmsociety.org/2021-phm-conference-data-challenge-winners/</a>
@@ -59,10 +59,10 @@ sidebar_main: true
 
 
 ## PUBLICATIONS
-
+---
 
 ## International Conference
-
+---
 
 ## Domestic Conference
-
+---
