@@ -1,9 +1,7 @@
 ---
 title: "About"
-layout: post
+layout: default
 permalink: /about/
-author_profile: True
-sidebar_main: True
 ---
 
 공대생의 공부 블로그 🌙<br><br>
