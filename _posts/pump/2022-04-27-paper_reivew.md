@@ -15,7 +15,6 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 ---
 
 ## 0. 들어가기 앞서
----
 
 - 2022-04-27 기준 220회 인용
 
@@ -25,7 +24,6 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 <br>
 
 ## 1. 서론
----
 
   - Centifugal pump(원심펌프)는 산업에서 중요하고 이용이 증가함에 따라 연속적인 모니터링이 필요
   - 펌프의 특성에 직접 영향을 미치는 **베어링, 실, 임펠러**는 아주 중요한 부품
@@ -36,7 +34,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 <br>
 
 ## 2. Experimental studies
----
+
 ### 실험 세팅
 ![image](https://user-images.githubusercontent.com/104422044/165876908-e70005da-8aab-497f-afec-350058d0800d.png)<br>
  - 본 논문의 실험에서는 Monoblock 원심펌프가 사용됨.
@@ -76,7 +74,6 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
  - Delivery valve를 완전히 열고, Suction valve를 점진적으로 닫음.<br>
 
 ## 3. Feature Extraction
----
 
  - 고장진단을 위해 시간도메인의 고장진단을 위해 통계적인 방법이 사용됨.
  - mean, standard error, median, standard deviation, sample variance, kurttosis, skewness, range, minimum, maximum, and sum
@@ -84,7 +81,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
  - 구체적인 수식은 본 논문을 참고
 
 ## 4. Decision Tree
----
+
 ![image](https://user-images.githubusercontent.com/104422044/165886183-71bb94b9-fbae-4cb9-a87b-cbd106e09609.png)<br>
  - Data mining 기술은 진동신호를 포함해 데이터구조로 부터 가치있는 지식을 찾기 위해 널리 사용됨.
  - 본 논문에서는 여러 기술중에서 <u>Deicision Tree(DT)</u>를 사용.
@@ -93,6 +90,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
  - 
 
 ## 용어정리
+
  - Mono는 single을 의미한다. Monoblock은 수평 다단 펌프를 의미한다.
  - Delivery head: 펌프의 중심으로 부터 물이 전달되는 곳까지의 수직거리<br>
  - ![image](https://user-images.githubusercontent.com/104422044/165886017-36c2af78-3218-4c6e-8f54-d989b3d4debf.png)<br>
