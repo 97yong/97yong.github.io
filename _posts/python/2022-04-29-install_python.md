@@ -20,10 +20,10 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
  - 
 ### 1.1. 아나콘다 사이트 들어가기
 
- - Anaconda 들어가기 (https://www.anaconda.com/products/distribution)
+ - Anaconda 들어가기 (<https://www.anaconda.com/products/distribution>)
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165921520-fcac1440-7863-40ea-afa5-49a9cf582a81.png" width="400" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/165921520-fcac1440-7863-40ea-afa5-49a9cf582a81.png" width="600" height="auto">
 </p>
 
 ### 1.2. 아나콘다 다운로드
