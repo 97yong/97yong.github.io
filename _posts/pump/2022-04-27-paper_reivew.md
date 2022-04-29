@@ -50,7 +50,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
  - Current: 11.5A / Head: 20m / Discharge: 392I/s / Power: 2hp
  - 가속도 센서에 대해 샘플링주파수는 24kHz, 샘플길이는 1024 (길이가 길수록 통계적인 측정에 의미가 있으나, 길이가 많이 길게되면 컴퓨터 연산시간 증가 - 따라서 최적의 길이 선택) <br>
 
-   ![image](https://user-images.githubusercontent.com/104422044/165884278-03483f67-6515-49ee-af5c-7665c9c1adb3.png)<br>
+   ![image](https://user-images.githubusercontent.com/104422044/165884278-03483f67-6515-49ee-af5c-7665c9c1adb3.png){: width="300" height="auto"){: .center}<br>
  - 위 그림은 시간 도메인에서 펌프의 진동신호를 나타냄.
  - bearing fault (BF), seal fault (SF), impeller fault (IF), bearing and impeller fault (BFIF), cavitation (CAV) 그리고 normal condition 총 6개의 라벨을 가짐
 
@@ -82,7 +82,10 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 
 ## 4, 5. Decision Tree
 
-   ![image](https://user-images.githubusercontent.com/104422044/165886183-71bb94b9-fbae-4cb9-a87b-cbd106e09609.png)<br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/165886183-71bb94b9-fbae-4cb9-a87b-cbd106e09609.png" width="300" height="auto">
+</p>
+
  - Data mining 기술은 진동신호를 포함해 데이터구조로 부터 가치있는 지식을 찾기 위해 널리 사용됨.
  - 본 논문에서는 여러 기술중에서 <u>Deicision Tree(DT)</u>를 사용.
  - DT는 top-down의 형태로 회귀적으로(Recursively) 만들어진다.
@@ -101,7 +104,7 @@ last_modified_at: 2022-04-28 # 이 글을 수정한 날짜.
 
  - Mono는 single을 의미한다. Monoblock은 수평 다단 펌프를 의미한다.
  - Delivery head: 펌프의 중심으로 부터 물이 전달되는 곳까지의 수직거리<br>
-   ![image](https://user-images.githubusercontent.com/104422044/165886017-36c2af78-3218-4c6e-8f54-d989b3d4debf.png)<br>
+   ![image](https://user-images.githubusercontent.com/104422044/165886017-36c2af78-3218-4c6e-8f54-d989b3d4debf.png){: width="300" height="auto"){: .center}<br>
  - Cavitation: 유체의 속도 변화에 의한 압력변화로인해 유체 내에 공동이 생기는 현상 (한국어: 공동현상)
 
 ## Reference
