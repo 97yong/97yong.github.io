@@ -13,7 +13,7 @@ sidebar_main: true
 <img src="https://user-images.githubusercontent.com/104422044/165870366-744de3fe-29cb-4a84-827a-ad82928a339f.png" align="left" style="width:250px; height:250px">
 
 ### Yong Chae Kim <br>
----
+
 - System Health and Risk Management Laboratory
 
 - Seoul National University, South Korea
