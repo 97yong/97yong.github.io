@@ -22,7 +22,7 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
   <img src="https://user-images.githubusercontent.com/104422044/165921520-fcac1440-7863-40ea-afa5-49a9cf582a81.png" width="600" height="auto">
 </p>
 
- - <u><https://97yong.github.io/python/install_python/></u>
+ - <https://97yong.github.io/python/install_python/>
  - 구체적인 Anaconda 다운로드는 블로그의 위 포스트를 참고해주세요!
  - 위의 설치과정을 다 따라하셨다면 1.4로 바로 이동해주세요!
 
