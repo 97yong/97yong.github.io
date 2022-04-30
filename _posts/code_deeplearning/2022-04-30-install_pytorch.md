@@ -67,6 +67,11 @@ python -m ipykernel install --user --name 이름 --display-name “이름”
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 ```
 
+- 파이토치와 cudatoolkit(GPU연산을 가능하게 해주는 도구)를 설치해줍니다.
+
+ > Q. 왜 cpu가 아닌 cuda를 사용하나요?
+ >> A. 딥러닝은 간단한 수학연산을 수백만번 연산하게 됩니다. GPU는 이러한 간단한 연산을 병렬적으로 처리할 수 있고, 이는 딥러닝 계산속도를 엄청나게 빠르게하기 때문에 GPU를 사용합니다. 실제로 cuda를 설정하지 않고 코드를 돌려볼 경우 크게는 10배이상의 속도차이가 나는 것을 확인할 수 있습니다.
+
 ### 1.6. 파이토치에 유용한 라이브러리 설치
 
 ```py
@@ -91,9 +96,6 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 print(device)
 ```
  - 결과가 cuda 라고 떴으면 성공입니다.
-
- > Q. 왜 cpu가 아닌 cuda를 사용하나요?
- >> A. 딥러닝은 간단한 수학연산을 수백만번 연산하게 됩니다. GPU는 이러한 간단한 연산을 병렬적으로 처리할 수 있고, 이는 딥러닝 계산속도를 엄청나게 빠르게하기 때문에 GPU를 사용합니다. 실제로 cuda를 설정하지 않고 코드를 돌려볼 경우 크게는 10배이상의 속도차이가 나는 것을 확인할 수 있습니다.
 
  > Q. 결과가 cpu라고 뜹니다.
  >> A. 아래의 2.1을 확인해주세요.
