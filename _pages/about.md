@@ -47,7 +47,7 @@ sidebar_main: true
 
 ## COMPETITIONS
 ---
-### 1. 2021 PHM Society 데이터 챌린지, 2021년 10월 - 4등
+### 1. 2021 PHM Society 데이터 챌린지, 2021년 10월 - 4위
  - Prognostics and Health Management (PHM) Society Data Challenge, October, 2021<br>
  - Leaderboard: <a href="https://data.phmsociety.org/2021-phm-conference-data-challenge-winners/">https://data.phmsociety.org/2021-phm-conference-data-challenge-winners/</a>
 <br>
