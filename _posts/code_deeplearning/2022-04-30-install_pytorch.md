@@ -3,7 +3,7 @@ title:  "[Lecture 0] Pytorch 설치방법 (Cuda 설정까지)"
 excerpt: "파이썬 설치"
 
 categories:
-  - code_deeplearning
+  - 딥러닝 코드
 tags:
   - [python, coding, deeplearning]
 
