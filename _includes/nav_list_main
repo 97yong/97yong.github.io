@@ -19,7 +19,7 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "paper_deeplearning" %}
-                        <li><a href="/categories/deep_learning" class="">Deep Learning ({{category[1].size}})</a></li>
+                        <li><a href="/categories/paper_deep_learning" class="">Deep Learning ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -48,7 +48,7 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "code_deeplearning" %}
-                        <li><a href="/categories/python" class="">Deep learning ({{category[1].size}})</a></li>
+                        <li><a href="/categories/code_deeplearning" class="">Deep learning ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
