@@ -3,9 +3,9 @@ title:  "[Lecture 0] Python 설치"
 excerpt: "파이썬 설치"
 
 categories:
-  - python
+  - code_deeplearning
 tags:
-  - [python, coding]
+  - [python, coding, deeplearning]
 
 toc: True  # Table of Contents. 포스트의 헤더들만 보여주는 목차를 사용할 것인지의 여부. ture 로 해주면 포스트의 목차가 보이게 된다.
 toc_sticky: False # true로 해주면 목차가 스크롤을 따라 움직이게 된다!
