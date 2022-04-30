@@ -45,7 +45,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DL code" %}
-                        <li><a href="/categories/dl-code" class="">딥러닝 실습 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/code_deeplearning" class="">딥러닝 실습 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
