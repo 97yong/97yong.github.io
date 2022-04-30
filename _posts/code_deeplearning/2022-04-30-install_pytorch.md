@@ -35,25 +35,25 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
  - <u>CuDNN등 여러 스트레스를 받지 않고 한번에 설치가 가능합니다.</u>
  
 ### 1.1. 파이썬 설치
-```p
+```py
 conda create -n 이름 python=3.7
 ```
  - 명령프롬프트에서 가상환경에 파이썬 3.7버전을 설치해줍니다.
 
 ### 1.2. 가상환경 활성화
-```p
+```py
 conda activate 이름
 ```
  - 가상환경을 활성화합니다.
 
 ### 1.3. ipykernel 설치
-```p
+```py
 conda install ipykernel jupyter
 ```
  - ipykernel 라이브러리 사용을 위해 ipykernel을 설치합니다.
 
 ### 1.4. display 설정
-```p
+```py
 python -m ipykernel install --user --name 이름 --display-name “이름”
 ```
  - 환경 이름을 보여주기 위해 display 이름을 설정합니다
@@ -63,21 +63,21 @@ python -m ipykernel install --user --name 이름 --display-name “이름”
 
 - 자신의 그래픽카드가 GTX의 종류가 아닌 경우 2.1을 먼저 읽어주세요.
 
-```p
+```py
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 ```
 
 ### 1.6. 파이토치에 유용한 라이브러리 설치
 
-```p
+```py
 pip install torchsummary
 ```
 
-```p
+```py
 pip install torch_snippets
 ```
 
-```p
+```py
 pip install jupyterlab
 ```
  - 저는 주피터랩 사용예정이라 주피터랩을 설치했습니다.
@@ -86,7 +86,7 @@ pip install jupyterlab
 
  - 주피터노트북이나 주피터랩에 들어갑니다.
 
-```p
+```py
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(device)
 ```
