@@ -3,7 +3,7 @@ title:  "[Lecture 0] Python 설치"
 excerpt: "파이썬 설치"
 
 categories:
-  - python
+  - 파이썬
 tags:
   - [python, coding]
 
@@ -17,7 +17,7 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
 ## 1. 아나콘다 설치
 
  - 이 글은 Window10 버전을 기준으로 작성되었습니다.
- - 
+
 ### 1.1. 아나콘다 사이트 들어가기
 
  - Anaconda 들어가기 (<https://www.anaconda.com/products/distribution>)
