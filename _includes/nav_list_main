@@ -35,8 +35,7 @@
         <span class="nav__sub-title">Coding</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/coding 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+
                 {% for category in site.categories %}
                     {% if category[0] == "python" %}
                         <li><a href="/categories/python" class="">파이썬 ({{category[1].size}})</a></li>
@@ -44,8 +43,6 @@
                 {% endfor %}
             </ul>
             <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/coding 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "DL code" %}
                         <li><a href="/categories/code_deeplearning" class="">딥러닝 코드 ({{category[1].size}})</a></li>
