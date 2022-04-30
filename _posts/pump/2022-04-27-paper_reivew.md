@@ -3,7 +3,7 @@ title:  "[논문리뷰] Vibration based fault diagnosis of monoblock centrifugal
 excerpt: "Expert Systems with Applications(2010)"
 
 categories:
-  - 펌프 논문
+  - pump
 tags:
   - [pump]
 
