@@ -21,10 +21,18 @@ sidebar_main: true
 - M.S Student in Mechanical Engineering
 
 - Contact: 313nara@snu.ac.kr
-
 <br>
 <br>
 
+## Education
+---
+### B.S. in Mechanical Engineering, Yonsei University (2016.03~2022.02)
+- Summa cum laude, Rank: 1/97
+<br>
+
+### M.S. in Mechanical Engineering, Seoul National University (2022.03~)
+
+<br>
 
 ## AWARDS AND SCHOLARSHIPS
 ---
