@@ -1,5 +1,5 @@
 ---
-title: "Deep learning"
+title: "딥러닝 논문"
 layout: archive
 permalink: categories/paper_deeplearning
 author_profile: true
