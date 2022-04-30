@@ -3,7 +3,7 @@ title:  "[Lecture 0] Python 설치"
 excerpt: "파이썬 설치"
 
 categories:
-  - 파이썬
+  - python
 tags:
   - [python, coding]
 
