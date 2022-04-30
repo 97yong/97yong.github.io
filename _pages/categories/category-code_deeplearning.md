@@ -1,5 +1,5 @@
 ---
-title: "Deep learning"
+title: "딥러닝 코드"
 layout: archive
 permalink: categories/code_deeplearning
 author_profile: true
