@@ -1,7 +1,7 @@
 ---
 title: "딥러닝 실습"
 layout: archive
-permalink: categories/dl-code
+permalink: categories/code_deeplearning
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.dl-code %}
+{% assign posts = site.categories.code_deeplearning %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
