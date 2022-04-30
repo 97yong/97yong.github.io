@@ -1,7 +1,7 @@
 ---
 title: "Deep learning"
 layout: archive
-permalink: categories/deeplearning
+permalink: categories/paper_deeplearning
 author_profile: true
 sidebar_main: true
 ---
