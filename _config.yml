@@ -20,7 +20,7 @@ title                    : "공대생의 공부 블로그 🌙"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "YongChae, Kim"
-description              : "SNU M.S. Student"
+description              : "Study Blog"
 url                      : "https://97yong.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "97yong/comments"
