@@ -3,7 +3,7 @@ title:  "[Lecture 1] Pytorch 숫자이미지 분류"
 excerpt: "숫자 이미지 분류"
 
 categories:
-  - DL code
+  - DL Code
 tags:
   - [python, coding, deeplearning]
 
@@ -24,3 +24,5 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
 
  - <https://97yong.github.io/python/install_python/>
  - 구체적인 Anaconda 다운로드는 블로그의 위 포스트를 참고해주세요! -->
+
+ - 아직 작성중입니다.
