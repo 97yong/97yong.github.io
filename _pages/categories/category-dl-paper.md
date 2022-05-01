@@ -1,7 +1,7 @@
 ---
 title: "딥러닝 논문"
 layout: archive
-permalink: categories/paper_deeplearning
+permalink: categories/dl-paper
 author_profile: true
 sidebar_main: true
 ---
