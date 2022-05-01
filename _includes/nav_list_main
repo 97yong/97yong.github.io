@@ -18,7 +18,7 @@
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "DL paper" %}
+                    {% if category[0] == "DL Paper" %}
                         <li><a href="/categories/dl-paper" class="">딥러닝 논문 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
@@ -44,7 +44,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "DL code" %}
+                    {% if category[0] == "DL Code" %}
                         <li><a href="/categories/dl-code" class="">딥러닝 실습 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
