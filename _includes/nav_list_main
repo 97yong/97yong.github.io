@@ -57,7 +57,7 @@
 
                 {% for category in site.categories %}
                     {% if category[0] == "DL Study" %}
-                        <li><a href="/categories/python" class="">딥러닝 이론 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/dl-study" class="">딥러닝 이론 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
