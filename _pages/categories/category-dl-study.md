@@ -1,5 +1,5 @@
 ---
-title: "딥러닝 공부"
+title: "딥러닝 이론"
 layout: archive
 permalink: categories/dl-study
 author_profile: true
