@@ -36,12 +36,22 @@ last_modified_at: 2022-05-09 # 이 글을 수정한 날짜.
 </p>
 
   - Table 1 에는 원심펌프 결함의 원인과 영향이 적혀있다.
-    - Suction blockage: <u>(원인)</u> 깨끗하지 않은 액체와 표면으로 인한 단면적 감소 <u>(영향)</u> Discharge re-circulation, cavitation, 부품들의 crack 등
-    - Discharge blockage: <u>(원인)</u> BEP(Best Efficiency Point) 이하 유동 <u>(영향)</u> Suction re-circultation
-    > Suction blockage는 Discharge부분에 유체가 방향이 바뀌는 현상을 발생시키고, Discharge blockage는 Suction부분에 유체가 방향이 바뀌는 현상을 발생시킴!
-    - Impeller degects: <u>(원인)</u> Impeller를 주조할 때 오차, cavitation, 재료부식, 피로 <u>(영향)</u> Unbalance, pseudo-flow re-circulation(Terminology 참고), 소음 등등
-    - Pitted cover plate: <u>(원인)</u> 제조 결함, cavitation에 의한 부식과 재료 부식에 의한 손상  <u>(영향)</u> 난류유동
-    - Dry run: <u>(원인)</u> 원심펌프에 불충분한 물 <u>(영향)</u> 베어링, seal 손상, 소음, 진동
+    - <b>Suction blockage</b><br>
+      <b>(원인)</b> 깨끗하지 않은 액체와 표면으로 인한 단면적 감소<br>
+      <b>(영향)</b> Discharge re-circulation, cavitation, 부품들의 crack 등<br><br>
+    - <b>Discharge blockage</b><br>
+      <b>(원인)</b> BEP(Best Efficiency Point) 이하 유동<br>
+      <b>(영향)</b> Suction re-circultation<br>
+      > Suction blockage</b>는 Discharge부분에 유체가 방향이 바뀌는 현상을 발생시키고, Discharge blockage는 Suction부분에 유체가 방향이 바뀌는 현상을 발생시킴!<br>
+    - <b>Impeller defects</b><br>
+      <b>(원인)</b> Impeller를 주조할 때 오차, cavitation, 재료부식, 피로<br>
+      <b>(영향)</b> Unbalance, pseudo-flow re-circulation(Terminology 참고), 소음 등등<br><br>
+    - <b>Pitted cover plate</b><br>
+      <b>(원인)</b> 제조 결함, cavitation에 의한 부식과 재료 부식에 의한 손상<br>
+      <b>(영향)</b> 난류유동<br><br>
+    - <b>Dry run</b><br>
+      <b>(원인)</b> 원심펌프에 불충분한 물<br>
+      <b>(영향)</b> 베어링, seal 손상, 소음, 진동<br><br>
   
   - 이러한 결함들이 결합해서 나타나면 Bubble이 생기게 되는데 이는 CP의 수두 성능을 떨어뜨리고 내부 부품에 손상을 가한다.
   
