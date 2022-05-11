@@ -97,18 +97,35 @@ last_modified_at: 2022-05-11 # 이 글을 수정한 날짜.
  - 예를 들어 impeller 고장은 압력차이로 인해 유동이 결함을 통해 흘러들어가 흐름을 방해한다. 그래서 bubble을 생성한다.
  - Bubble이 터질 때 <b>Shock Wave</b>를 만들어 내는데, 이는 고체 표면에 영향을 미친다.
  - 이로써 기계적, 유체역학적 고장은 악순환을 만들어낸다.
+<br>
 
 ## 3. CP fault diagnosis methodology
 
  - SVM이 사용되었고, 자세한 설명은 생략 (SVM에 대한 설명은 다른 포스트를 참고하는 것이 좋을 듯하다. / 나중에 작성예정)
  - Kernel로는 Gaussian RBF커널이 사용되었다.
- - 
+<br>
 
+## 4. Feature selection and effect of the sampling rate on the fault predictions
 
-## 6. Result and Discussion
-  
+ - <u>Raw data는 high dimensionality를 가지고 있어</u> 적절한 통계적 특징을 도출해야한다.
+ - 본 논문에서는 평균, 분산, skewness, kurtosis 등... 여러가지 통계적인 수치를 활용하였고 최종적으로 <b>wrapper model</b>을 이용해 feature selection을 하였다.
+ - 평균, 표준편차, 표준편차의 역수가 feature로 선택되었고 99.2%의 성능을 내었다.
+ - 데이터는 high-resolution으로 얻어진 것으로 이행되었고, low-resolution과 비교했을 때 8%정도 성능이 더 좋다.
+   > 이는 샘플링 주파수가 높은 데이터로 분류를 진행했을 때 더 높은 성능을 보이는 것을 알 수 있다.
 
+### 4.1 Data required for training and testing
 
+ - Train과 Test 데이터의 비율을 달리해 실험을 했다.
+ - 50/50 비율이 가장 일반화를 잘한다고 고려해 논문에서는 이를 선택했다.
+<br>
+
+## 5. Frequency-domain prediction performance: results and discussion
+### 5.1 Fault classification cases and results
+
+ - 각각 Task를 달리해서 구체적인 결과가 적혀있음.
+ - 이에 대한 결과는 논문을 참고바람
+
+<br>
 
 ## Terminology
 
