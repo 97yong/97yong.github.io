@@ -54,22 +54,61 @@ last_modified_at: 2022-05-11 # 이 글을 수정한 날짜.
       <b>(영향)</b> 베어링, seal 손상, 소음, 진동<br><br>
   
   - 이러한 결함들이 결합해서 나타나면 Bubble이 생기게 되는데 이는 CP의 수두 성능을 떨어뜨리고 내부 부품에 손상을 가한다.<br>
-  - 기계적 결함은 원심펌프의 속도와 직접적으로 연관되어 있어서 진단하기 쉬운 반면 유동에 의해 생기는 결함은 진단하기 어렵다.
-  - 
+  - 기계적 결함은 원심펌프의 속도와 직접적으로 연관되어 있어서 진단하기 쉬운 반면 유동에 의해 생기는 결함은 진단하기 어렵다.<br>
+  - 원심 펌프를 진단하기 위해 신호(signal)을 선택하는 것은 중요하다. 자주 사용되는 신호는 <u>vibration, motor line current, acoustic emission signals</u>이다.
+    > 결함이 모터의 하중을 바꾸기 때문에 motor line current도 변한다.
+  - 많은 연구자들은 Time domain에 대한 신호를 사용했는데, 주파수 영역의 신호는 waveform을 간단하게 해주는 등 여러 이점이 있다.
+  
+### Main Contribution
+  - 기계적, 유체역학적 결함에 대해서 독립적으로 그리고 조합적으로 나타나는 결함을 분류하려는 시도
+  - 원심펌프의 suction & disccharge blockage들의 여러가지 심각도를 isolate 한다.
+  - 여러 운행조건에도 강건한 방법론을 제시
+  - 주파수 대역의 resolution에 대한 비교 study
+  - 진동신호와 직류전류신호 조합을 사용하는 것에 대한 효과
+  - SVM을 통한 3가지 결함을 분류하는 방법론 개발
   
 <br>
 
-## 2. Experimental studies
-
-### 2.1. 실험 세팅
+## 2. CP fault analysis test setup
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/167360720-15b52e3b-8e06-4382-961a-4d4e4ba899b6.png" width="400" height="auto">
 </p>
 
-
+ - Oberdorfer 60P 원심펌프 사용
+ - 원심 펌프는 3가지로 운전된다. (1. impeller와 cover plate 모두 healthy / 2. impeller만 fault / 3. cover plate만 fault)
+ - 총 33개의 고장으로 크게 10가지로 분류된다.
+   > 1. healthy pump / 2. suction blockage faults / 3. discharge blockage faults / 4. impeller defects / 5. combination of impeller defects and suction blockages / 6. combination of impeller defects and discharge blockages / 7. pitted cover plate faults / 8. combination of pitted cover plate faults and suction blockages / 9. combination of pitted cover plate faults and discharge blockages / 10. dry-run faults
+ - Suction & discharge blockages는 B0~B5(유동의 양에 따라)로 나누어 밸브를 조절하면서 고장을 만들어주었다.
+ - Impeller 고장은 notch를 주었다. (vane당 2개, 비대칭적으로)
+ - 진동신호는 triaxial accelerometer를 통해, 직류전류신호는 3개의 probe를 통해 얻어진다.
+ - 펌프 운전조건은 30~65Hz로서 5Hz 단위로 운전되었다.
+ - 샘플링 주파수를 달리해서도 데이터가 얻어진다.(5000Hz, 20000Hz)
 <br>
- 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/167822366-80da2132-bc44-4248-bb5c-3393aa725d54.png" width="600" height="auto">
+</p>
+
+ - 펌프 구조도는 위와 같음
+
+### 2.1. Interdependence of faults
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/167826653-36704745-94df-46da-8534-c0a80df7bc71.png" width="600" height="auto">
+</p>
+ - 펌프의 기계적, 유체역학적 고장은 서로 관련이 있다.
+ - 예를 들어 impeller 고장은 압력차이로 인해 유동이 결함을 통해 흘러들어가 흐름을 방해한다. 그래서 bubble을 생성한다.
+ - Bubble이 터질 때 <b>Shock Wave</b>를 만들어 내는데, 이는 고체 표면에 영향을 미친다.
+ - 이로써 기계적, 유체역학적 고장은 악순환을 만들어낸다.
+
+## 3. CP fault diagnosis methodology
+
+ - SVM이 사용되었고, 자세한 설명은 생략 (SVM에 대한 설명은 다른 포스트를 참고하는 것이 좋을 듯하다. / 나중에 작성예정)
+ - Kernel로는 Gaussian RBF커널이 사용되었다.
+ - 
+
+
 ## 6. Result and Discussion
   
 
@@ -81,6 +120,7 @@ last_modified_at: 2022-05-11 # 이 글을 수정한 날짜.
  - throttle valve: 유량을 조절하는 밸브
  - pseudo-flow re-circulation: Impeller가 회전하는 것을 방해하는 반대 유동의 흐름
  - priming: 원심 펌프를 기동시킬 때 내부에 물을 가득 채우는 일
+ - line current: 직류 전류에서 측정된 양
 
 <br>
 
