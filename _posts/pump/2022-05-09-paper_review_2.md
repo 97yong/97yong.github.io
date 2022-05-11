@@ -11,7 +11,7 @@ toc: True  # Table of Contents. 포스트의 헤더들만 보여주는 목차를
 toc_sticky: False # true로 해주면 목차가 스크롤을 따라 움직이게 된다!
  
 date: 2022-05-09 # 글을 처음 작성한 날짜
-last_modified_at: 2022-05-09 # 이 글을 수정한 날짜.
+last_modified_at: 2022-05-11 # 이 글을 수정한 날짜.
 ---
 
 ## 0. Information
@@ -42,7 +42,7 @@ last_modified_at: 2022-05-09 # 이 글을 수정한 날짜.
     - <b>Discharge blockage</b><br>
       <b>(원인)</b> BEP(Best Efficiency Point) 이하 유동<br>
       <b>(영향)</b> Suction re-circultation<br>
-      > Suction blockage</b>는 Discharge부분에 유체가 방향이 바뀌는 현상을 발생시키고, Discharge blockage는 Suction부분에 유체가 방향이 바뀌는 현상을 발생시킴!<br>
+      > Suction blockage는 Discharge부분에 유체가 방향이 바뀌는 현상을 발생시키고, Discharge blockage는 Suction부분에 유체가 방향이 바뀌는 현상을 발생시킴!<br>
     - <b>Impeller defects</b><br>
       <b>(원인)</b> Impeller를 주조할 때 오차, cavitation, 재료부식, 피로<br>
       <b>(영향)</b> Unbalance, pseudo-flow re-circulation(Terminology 참고), 소음 등등<br><br>
@@ -53,7 +53,9 @@ last_modified_at: 2022-05-09 # 이 글을 수정한 날짜.
       <b>(원인)</b> 원심펌프에 불충분한 물<br>
       <b>(영향)</b> 베어링, seal 손상, 소음, 진동<br><br>
   
-  - 이러한 결함들이 결합해서 나타나면 Bubble이 생기게 되는데 이는 CP의 수두 성능을 떨어뜨리고 내부 부품에 손상을 가한다.
+  - 이러한 결함들이 결합해서 나타나면 Bubble이 생기게 되는데 이는 CP의 수두 성능을 떨어뜨리고 내부 부품에 손상을 가한다.<br>
+  - 기계적 결함은 원심펌프의 속도와 직접적으로 연관되어 있어서 진단하기 쉬운 반면 유동에 의해 생기는 결함은 진단하기 어렵다.
+  - 
   
 <br>
 
