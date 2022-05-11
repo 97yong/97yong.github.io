@@ -71,10 +71,6 @@ last_modified_at: 2022-05-11 # 이 글을 수정한 날짜.
 
 ## 2. CP fault analysis test setup
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/167360720-15b52e3b-8e06-4382-961a-4d4e4ba899b6.png" width="400" height="auto">
-</p>
-
  - Oberdorfer 60P 원심펌프 사용
  - 원심 펌프는 3가지로 운전된다. (1. impeller와 cover plate 모두 healthy / 2. impeller만 fault / 3. cover plate만 fault)
  - 총 33개의 고장으로 크게 10가지로 분류된다.
