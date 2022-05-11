@@ -129,7 +129,7 @@ def train(epoch, num_epochs, model, optimizer):
 
         pred = model( batch )
 
-        # calculate the loss
+        # 손실함수 계산하기
         loss = loss_func( pred, target )
         
         # 이전 그레디언트 삭제
@@ -146,14 +146,14 @@ def test(model):
 
     correct = 0
     
-    # 그레디언트 계산 안하도록
+    # 그레디언트 계산 안하도록 (테스트를 위해)
     with torch.no_grad():
         for batch, target in test_dl:
             batch, target = batch.to(device), target.to(device)
 
             pred = model( batch )
 
-            # 라벨이 무엇인지 계산
+            # 가장 높은 수치를 가진 라벨이 무엇인지 계산 -> 최종적으로 원하는 것
             output = torch.argmax(pred, 1)
 
             correct += (output == target).sum().item()
@@ -179,6 +179,12 @@ for epoch in range(num_epochs):
 
 print('Training completed')
 ```
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/167845595-bf816b1f-cc24-417e-9dd3-0784f9c6e39a.png" width="400" height="auto">
+</p>
+
+ - 다음과 같이 학습이 진행되면 성공입니다!
 
 ### 1.11 결과 확인하기
 
