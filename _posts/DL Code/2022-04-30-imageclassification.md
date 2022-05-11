@@ -224,6 +224,9 @@ visualize_model(model)
   <img src="https://user-images.githubusercontent.com/104422044/167844487-e8bdacdf-7841-4905-802a-aa78ef92b7f7.png" width="700" height="auto">
 </p>
 
+
+  > 구체적인 설명은 추후에 작성하겠습니다. 질문이 있다면 댓글이나 이메일로 문의해주세요!
+
 ## Reference
 LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11 (1998): 2278-2324.
 Ayyadevara, V. Kishore, and Yeshwanth Reddy. Modern Computer Vision with PyTorch: Explore deep learning concepts and implement over 50 real-world image applications. Packt Publishing Ltd, 2020.
