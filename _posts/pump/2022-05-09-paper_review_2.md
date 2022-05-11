@@ -109,7 +109,7 @@ last_modified_at: 2022-05-11 # 이 글을 수정한 날짜.
 
  - <u>Raw data는 high dimensionality를 가지고 있어</u> 적절한 통계적 특징을 도출해야한다.
  - 본 논문에서는 평균, 분산, skewness, kurtosis 등... 여러가지 통계적인 수치를 활용하였고 최종적으로 <b>wrapper model</b>을 이용해 feature selection을 하였다.
- - 평균, 표준편차, 표준편차의 역수가 feature로 선택되었고 99.2%의 성능을 내었다.
+ - 특정 Task를 통해 평균, 표준편차, 표준편차의 역수가 feature로 선택되었고 99.2%의 성능을 내었다.
  - 데이터는 high-resolution으로 얻어진 것으로 이행되었고, low-resolution과 비교했을 때 8%정도 성능이 더 좋다.
    > 이는 샘플링 주파수가 높은 데이터로 분류를 진행했을 때 더 높은 성능을 보이는 것을 알 수 있다.
 
