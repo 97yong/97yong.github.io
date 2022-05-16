@@ -11,14 +11,18 @@ toc: True  # Table of Contents. 포스트의 헤더들만 보여주는 목차를
 toc_sticky: False # true로 해주면 목차가 스크롤을 따라 움직이게 된다!
 use_math: true
 
-date: 2022-04-29 # 글을 처음 작성한 날짜
-last_modified_at: 2022-05-11 # 이 글을 수정한 날짜.
+date: 2022-05-16 # 글을 처음 작성한 날짜
+last_modified_at: 2022-05-16 # 이 글을 수정한 날짜.
 ---
 
-## 0. CNN(Convolutional Neural Network)
+## 0. Information
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/166412538-84937f68-adb9-440d-b13f-e30e87618068.png" width="600" height="auto">
-</p>
+- 2022-05-16 기준 0회 인용
 
- - CNN은 DNN
+- JCR IF 2020 기준 8.038 (Q1)
+
+- 2022년에 출판된 최신 논문임.
+<br>
+
+## 1. Introduction
+
