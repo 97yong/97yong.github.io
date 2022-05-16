@@ -52,6 +52,7 @@ last_modified_at: 2022-05-16 # 이 글을 수정한 날짜.
   - WQD는 디자인 되었고 MMD, CMD와 비교했을 때 더 정확하고 빠르다.
   - Dynamic WQD의 weight는 high-level의 feature에 따라 업데이트된다. 또한, customize도 할 수 있다.
   - 손실함수는 Network와 결합되었다. 그렇기에 MMD방식보다 다양한 딥러닝 프레임워크에 적용되기 더 쉽다.
+<br>
 
 ## 2. Related work
 
