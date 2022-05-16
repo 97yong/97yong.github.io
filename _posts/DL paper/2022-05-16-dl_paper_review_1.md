@@ -27,7 +27,7 @@ last_modified_at: 2022-05-16 # 이 글을 수정한 날짜.
 ## 1. Introduction
 
 - Intelligent fault diagnosis(IFD)는 연구 hotspot이 되고 있다. IFD는 <b>자동적으로 특징을 추출하는데 이점</b>을 가지고 있고 사람의 labor를 제거하고 있다.
-- 하지만 IFD가 제대로 되려면 두가지를 만족해야한다. (1) 충분한 레이블 데이터 (2) 훈련과 테스트의 같은 분포
+- 하지만 IFD가 제대로 되려면 두가지를 만족해야한다. (1) <u>충분한 레이블 데이터</u> (2) <u>훈련과 테스트의 같은 분포</u>
   > 이러한 점은 현실에서 제대로 만족하지 않는다.
 
 - 전문가가 큰 양의 데이터를 레이블하는 것은 시간이 많이 들고, IFD는 훈련된 데이터가 아닌 다른 기계나 다른 운영조건하에 적용이 된다. (이를 train과 test 데이터가 다른 분포라고 함)
@@ -67,6 +67,16 @@ last_modified_at: 2022-05-16 # 이 글을 수정한 날짜.
  - GAN-based methods: 손실함수를 최대화 함으로써 도메인 불변의 feature를 만들도록한다. (표현이 조금 이상함)
    > 도메인 discriminator 앞에 GRL(Gradient Reversal Layer)를 붙여 Feature Extractor가 도메인을 잘 분류하지 못하게 한다.(GRL의 효과로 -가 붙여서 역전파가 된다.) 이에 따라 도메인 불변의 특징을 추출할 수 있게 된다.
 
-   >Lu, Weining, et al. "Deep model based domain adaptation for fault diagnosis." IEEE Transactions on Industrial Electronics 64.3 (2016): 2296-2305. 이 논문이 고장진단에서 최초로 MMD기반의 Domain adaptation이 채택되었다고 한다.
- 
- -
+ - MMD를 사용한 Domain Adaptation관련 논문
+   >Lu, Weining, et al. "Deep model based domain adaptation for fault diagnosis." IEEE Transactions on Industrial Electronics 64.3 (2016): 2296-2305. <b>이 논문이 고장진단에서 최초로 MMD기반의 Domain adaptation이 채택되었다고 한다.</b>
+   > Guo, Liang, et al. "Deep convolutional transfer learning network: A new method for intelligent fault diagnosis of machines with unlabeled data." IEEE Transactions on Industrial Electronics 66.9 (2018): 7316-7325. 이것도 MMD
+   > Yang, Bin, et al. "An intelligent fault diagnosis approach based on transfer learning from laboratory bearings to locomotive bearings." Mechanical Systems and Signal Processing 122 (2019): 692-706. 이것도 MMD
+
+ - DANN 관련 진단 논문
+   > Han, Te, et al. "A novel adversarial learning framework in deep convolutional neural network for intelligent diagnosis of mechanical faults." Knowledge-based systems 165 (2019): 474-487.
+   > Li, Yibin, et al. "Intelligent fault diagnosis by fusing domain adversarial training and maximum mean discrepancy via ensemble learning." IEEE Transactions on Industrial Informatics 17.4 (2020): 2833-2841. (DANN+MMD)
+   > Zhao, Ke, et al. "Joint distribution adaptation network with adversarial learning for rolling bearing fault diagnosis." Knowledge-Based Systems 222 (2021): 106974. (DANN+MMD)
+
+## 3. Theoretical foundation
+
+### 3.1. Domatin Adaptation problem
