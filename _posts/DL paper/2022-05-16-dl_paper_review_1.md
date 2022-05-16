@@ -35,7 +35,37 @@ last_modified_at: 2022-05-16 # 이 글을 수정한 날짜.
   > 학습된 Knowledge는 다른 기계나 다른 운행조건에 있는 기계의 task를 다루는데 일반화된다.
   >> 즉, 운행조건과 관련없는 특징들을 추출해 운행조건이 다름에도 불구하고 좋은 성능을 보일 수 있다.
 
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/167419716-bd7da8f8-0830-4c35-b2e3-2fc21bff657a.png" width="600" height="auto">
+</p>
 
 - Distance metircs도 Domain Adaptation에 직접적인 영향을 미쳤다. 대표적으로는 MMD(Maximum Mean Discrepancy: 최대평균불일치)가 있다.
--  
+- 위의 MMD는 <https://97yong.github.io/dl%20study/mmd/> 여기를 참고하자.
+- 하지만 MMD는 Time Complexity를 크게 가짐 O(n^2 + 2nm + m^2)
+- 많은 기계 데이터들으 다루기가 어렵고, Gaussian kernel parameter도 튜닝되어야한다.
+- MMD와 비슷한 CMD가 있지만 공학적인 task에서는 사용이 잘 되지 않는다.
+
+- 본 논문에서는 MMD와 CMD에 영감을 받아 WQD(Weighted Quantile Discrepancy)를 제안한다.
+- Time Complexity는 O(n+m)으로 줄어들었다. 또한 더 정확하다.
+
+- <b>Main Contribution</b>
+  - WQD는 디자인 되었고 MMD, CMD와 비교했을 때 더 정확하고 빠르다.
+  - Dynamic WQD의 weight는 high-level의 feature에 따라 업데이트된다. 또한, customize도 할 수 있다.
+  - 손실함수는 Network와 결합되었다. 그렇기에 MMD방식보다 다양한 딥러닝 프레임워크에 적용되기 더 쉽다.
+
+## 2. Related work
+
+### 2.1. Conventional IFD methods
+ - ANN, SVM, Random forest
+ - 이러한 shallow한 IFD는 복잡한 공학적인 상황에 적합하지 않고 딥러닝 방법이 더 적합하였다.
+ - 따라서 CNN, deep belief networks, ResNet-based 접근 등이 개발되었다.
+
+### 2.2. Domain adaptation methods
+ - 도메인 적응은 도메인 shift를 다루는데 성공적인 적용방법이었다.
+ - feature-based methods: 거리와 같은 방법을 사용하여 소스와 타겟의 분포를 줄였다.
+ - GAN-based methods: 손실함수를 최대화 함으로써 도메인 불변의 feature를 만들도록한다. (표현이 조금 이상함)
+   > 도메인 discriminator 앞에 GRL(Gradient Reversal Layer)를 붙여 Feature Extractor가 도메인을 잘 분류하지 못하게 한다.(GRL의 효과로 -가 붙여서 역전파가 된다.) 이에 따라 도메인 불변의 특징을 추출할 수 있게 된다.
+
+   >Lu, Weining, et al. "Deep model based domain adaptation for fault diagnosis." IEEE Transactions on Industrial Electronics 64.3 (2016): 2296-2305. 이 논문이 고장진단에서 최초로 MMD기반의 Domain adaptation이 채택되었다고 한다.
+ 
+ -
