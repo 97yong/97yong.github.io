@@ -68,18 +68,25 @@ last_modified_at: 2022-05-16 # 이 글을 수정한 날짜.
    > 도메인 discriminator 앞에 GRL(Gradient Reversal Layer)를 붙여 Feature Extractor가 도메인을 잘 분류하지 못하게 한다.(GRL의 효과로 -가 붙여서 역전파가 된다.) 이에 따라 도메인 불변의 특징을 추출할 수 있게 된다.
 
  - MMD를 사용한 Domain Adaptation관련 논문
-   >Lu, Weining, et al. "Deep model based domain adaptation for fault diagnosis." IEEE Transactions on Industrial Electronics 64.3 (2016): 2296-2305. <b>이 논문이 고장진단에서 최초로 MMD기반의 Domain adaptation이 채택되었다고 한다.</b>
+
+>Lu, Weining, et al. "Deep model based domain adaptation for fault diagnosis." IEEE Transactions on Industrial Electronics 64.3 (2016): 2296-2305. <b>이 논문이 고장진단에서 최초로 MMD기반의 Domain adaptation이 채택되었다고 한다.</b>
 <br>
-   > Guo, Liang, et al. "Deep convolutional transfer learning network: A new method for intelligent fault diagnosis of machines with unlabeled data." IEEE Transactions on Industrial Electronics 66.9 (2018): 7316-7325. 이것도 MMD
+
+> Guo, Liang, et al. "Deep convolutional transfer learning network: A new method for intelligent fault diagnosis of machines with unlabeled data." IEEE Transactions on Industrial Electronics 66.9 (2018): 7316-7325.
 <br>
-   > Yang, Bin, et al. "An intelligent fault diagnosis approach based on transfer learning from laboratory bearings to locomotive bearings." Mechanical Systems and Signal Processing 122 (2019): 692-706. 이것도 MMD
+
+> Yang, Bin, et al. "An intelligent fault diagnosis approach based on transfer learning from laboratory bearings to locomotive bearings." Mechanical Systems and Signal Processing 122 (2019): 692-706.
 <br>
+
  - DANN 관련 진단 논문
-   > Han, Te, et al. "A novel adversarial learning framework in deep convolutional neural network for intelligent diagnosis of mechanical faults." Knowledge-based systems 165 (2019): 474-487.
+
+> Han, Te, et al. "A novel adversarial learning framework in deep convolutional neural network for intelligent diagnosis of mechanical faults." Knowledge-based systems 165 (2019): 474-487.
 <br>
-   > Li, Yibin, et al. "Intelligent fault diagnosis by fusing domain adversarial training and maximum mean discrepancy via ensemble learning." IEEE Transactions on Industrial Informatics 17.4 (2020): 2833-2841. (DANN+MMD)
+
+> Li, Yibin, et al. "Intelligent fault diagnosis by fusing domain adversarial training and maximum mean discrepancy via ensemble learning." IEEE Transactions on Industrial Informatics 17.4 (2020): 2833-2841. (DANN+MMD)
 <br>
-   > Zhao, Ke, et al. "Joint distribution adaptation network with adversarial learning for rolling bearing fault diagnosis." Knowledge-Based Systems 222 (2021): 106974. (DANN+MMD)
+
+> Zhao, Ke, et al. "Joint distribution adaptation network with adversarial learning for rolling bearing fault diagnosis." Knowledge-Based Systems 222 (2021): 106974. (DANN+MMD)
 
 ## 3. Theoretical foundation
 
