@@ -3,7 +3,7 @@ title: "About"
 layout: archive
 permalink: /about/
 author_profile: true
-sidebar_main: true
+sidebar_main: False
 ---
 
 # 공대생의 공부 블로그 🌙<br><br>
