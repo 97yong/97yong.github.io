@@ -10,7 +10,7 @@ sidebar_main: False
 ---
 ## INFORMATION
 ---
-<img src="https://user-images.githubusercontent.com/104422044/165870366-744de3fe-29cb-4a84-827a-ad82928a339f.png" align="left" style="width:250px; margin-right: 100px; height:250px">
+<img src="https://user-images.githubusercontent.com/104422044/165870366-744de3fe-29cb-4a84-827a-ad82928a339f.png" align="left" style="width:250px; margin-right: 50px; height:250px">
 
 ### Yong Chae Kim <br>
 
