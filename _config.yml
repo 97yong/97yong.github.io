@@ -106,7 +106,7 @@ author:
   avatar           : "https://user-images.githubusercontent.com/104422044/165700028-c3cc664e-7538-4fc1-b843-2f6bf05d5388.png"
   bio              : "📚️ SNU - M.S. Student<br>⚙️ Mechanical Enginner<br>📈 Data Analyst"
   location         : "Seoul, South Korea"
-  email            : # "313nara@snu.ac.kr"
+
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
