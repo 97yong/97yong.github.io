@@ -23,21 +23,32 @@ last_modified_at: 2022-06-02 # 이 글을 수정한 날짜.
 
 ## 1. Introduction
 
+- Transfer learning VS Meta learning
+  > Transfer learning: 미리 학습된 모델에 적은 dataset에 대해 Fine Tuning하는 과정
+
+  > Meta learning: Learning to learn이라는 느낌으로 전이학습보다 빠르게 adaptation하는 알고리즘
+
 - Meta-learning 알고리즘을 제안
-- 메타러닝에서 모델훈련의 목표는 새로운 작은 양의 데이터로 새로운 task를 빠르게 배우는 것이다. 그리고 나서 거대한 양의 데이터를 학습시킬 수 있는 모델이 훈련된다.
+
+- 메타러닝에서 모델훈련의 목표는 새로운 작은 양의 데이터로 새로운 task를 빠르게 배우는 것이다. 그리고 나서 많은 양의 task로 부터 훈련된다.
   > 이를 어떻게 해결할까?
   >> 모델의 성능을 최대한으로 이끌어 줄 수 있도록 모델의 initial parameter를 훈련시키는 것이다!
 
-- 쉽게 다른 여러 neural network 모델과 결합될 수 있다.
 - 제안하는 방법은 새로운 Task에 관해 손실함수의 민감도를 최대화시킨다.
 
+- 새로운 Task의 데이터가 들어오면 여러 Task에 동시에 최적화된 Model의 Parameter를 찾는다.
+
+- 이 모델은 쉽게 다른 여러 neural network 모델과 결합될 수 있다.
+
 ## 2. Model Agnoistic Meta-Learning
+
+- Model Agnoistic(모델과 상관없이) 훈련될 수 있는 Meta-Learning
 
 ### 2.1. Meta-Learning Problem Set-Up
 
 - 목표: 작은 데이터와 적은 iteration으로 새로운 task에 대해 모델을 적응시키는 것
-- 메타러닝 시나리오에 있어서 K sample을 일으키는 q의 변화로 부터 모델을 향상시킬 수 있음
-- 
+
+- Generalized Model의 θ를 최적화 하는 방향으로 Gradient Descent를 진행
 
 ### 2.2. A Model-Agnostic Meta-Learning Algorithm
 
@@ -48,3 +59,8 @@ last_modified_at: 2022-06-02 # 이 글을 수정한 날짜.
 </p>
 
 - 제안하는 방법은 위의 그림에서, 새로운 task에 대해 여러 gradient를 계산해서 업데이트를 하게 된다.
+
+- 구체적으로 <u>\\(θ\\)는 1,2,3 에 대해서 제일 좋은 방향은 아니지만 저 방향으로 \\(θ\\)가 학습된다면 이후 가장 빠르게 Adaptation을 할 수 있게 된다.</u>
+  > \\(θ\\)는 이후 새로운 Task \\(T_i\\) 에 맞는 \\(θ*\\)을 찾아간다. (Fast Adaptation)
+
+- 
