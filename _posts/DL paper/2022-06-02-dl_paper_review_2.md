@@ -63,4 +63,4 @@ last_modified_at: 2022-06-02 # 이 글을 수정한 날짜.
 - 구체적으로 \\(θ\\)는 1,2,3 에 대해서 제일 좋은 방향은 아니지만 저 방향으로 \\(θ\\)가 학습된다면 이후 가장 빠르게 Adaptation을 할 수 있게 된다.
   > \\(θ\\)는 이후 새로운 Task \\(T_i\\) 에 맞는 \\(θ^*\\)을 찾아간다. (Fast Adaptation)
 
-- \\(\min(θ)\sum(T_i~p(T)) L_T_i(f_θ'_i) = \sum(T_i~p(T)) L_T_i(f_θ'_i) \\)
+- \\(\min(θ)\sum(T_i~p(T)) L_T_i(f_θ\prime_i) = \sum(T_i~p(T)) L_T_i(f_θ_i) f_θ-\alpha \bigtriangledown_θ L_T_i (f_θ)  \\)
