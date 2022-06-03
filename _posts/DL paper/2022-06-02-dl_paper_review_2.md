@@ -90,13 +90,13 @@ last_modified_at: 2022-06-02 # 이 글을 수정한 날짜.
 - \\(θ_i\prime\\)을 모델에 넣어 자신의 Task에 해당하는 Loss를 구해 그에 대한 합을 최종 Loss로 생각한다.
 
 - 이에 대한 Loss를 업데이트를 반복해서 \\(θ\\)를 찾는다.
-
 <br>
+
 ## 3. Species of MAML
 
 - 지도 학습과 강화학습에 대해 메타러닝 알고리즘에 대해 discuss한다.
-
 <br>
+
 ### 3.1. Supervised Regression and Classification
 
 <p align="center">
@@ -107,23 +107,23 @@ last_modified_at: 2022-06-02 # 이 글을 수정한 날짜.
   > Fewshot learning: 유사성을 학습하는 알고리즘. 이에 적은 데이터를 효율적으로 학습
 
 - 분류문제에서 Fewshot learning의 목표: 이전에 많은 다른 종류의 class를 본 모델을 사용하여 하나 또는 몇개를 본 후에 이미지를 분류하는 것 
-
 <br>
+
 ### 3.2. Reinforecement Learning
 
 - 생략 ( 본 포스터에서는 분류에 해당하는 문제만 다룸 )
-
 <br>
+
 ## 4. Related Work
 
 - Meta learning과 Few shot learning이 풀고자 하는 문제, 저자의 접근 방법등에 대한 전반적인 내용을 담고 있음.
-
 <br>
+
 ## 5. Experimental Evaluation
 
 - ( 본 포스터에서는 분류 문제에 대해서만 다룸 )
- 
 <br>
+
 ### 5.2. Classification
 
 - Omniglot 과 MiniImagenet 데이터셋에 대해 실험
