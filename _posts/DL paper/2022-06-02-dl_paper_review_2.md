@@ -111,7 +111,7 @@ last_modified_at: 2022-06-02 # 이 글을 수정한 날짜.
 
 ### 3.2. Reinforecement Learning
 
-- 생략 ( 본 포스터에서는 분류에 해당하는 문제만 다룸 )
+- 생략
 <br>
 
 ## 4. Related Work
