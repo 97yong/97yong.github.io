@@ -116,12 +116,11 @@ last_modified_at: 2022-06-02 # 이 글을 수정한 날짜.
 
 ## 4. Related Work
 
-- Meta learning과 Few shot learning이 풀고자 하는 문제, 저자의 접근 방법등에 대한 전반적인 내용을 담고 있음.
+- 생략
 <br>
 
 ## 5. Experimental Evaluation
 
-- ( 본 포스터에서는 분류 문제에 대해서만 다룸 )
 <br>
 
 ### 5.2. Classification
@@ -131,7 +130,7 @@ last_modified_at: 2022-06-02 # 이 글을 수정한 날짜.
 - 모두 제안하는 방법이 우수한 결과를 보임.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/171790231-9bb00f8d-1510-4964-93c8-ca039d1fd476.png" width="400" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/171790625-f8b76d21-8a7a-417c-a8c4-a55b014327a6.png" width="800" height="auto">
 </p>
 
-- 위의 그림에서 제안하는 방법인 MAML을 이용한 알고리즘이 최종 목표에 잘 도달하는 것을 확인할 수 있다.
+- 위의 그림은 강화학습에 대한 내용이지만 제안하는 방법인 MAML을 이용한 알고리즘이 최종 목표에 잘 도달하는 것을 확인할 수 있다.
