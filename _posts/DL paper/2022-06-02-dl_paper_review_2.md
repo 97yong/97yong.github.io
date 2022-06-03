@@ -58,9 +58,38 @@ last_modified_at: 2022-06-02 # 이 글을 수정한 날짜.
   <img src="https://user-images.githubusercontent.com/104422044/171654934-afce9e46-5dea-4ffe-92c3-9b65a6f8471c.png" width="600" height="auto">
 </p>
 
-- 제안하는 방법은 위의 그림에서, 새로운 task에 대해 여러 gradient를 계산해서 업데이트를 하게 된다.
+- 제안하는 방법은 위의 그림에서, 새로운 task에 대해 여러 gradient를 계산해서 업데이트를 하게 된다
 
 - 구체적으로 \\(θ\\)는 1,2,3 에 대해서 제일 좋은 방향은 아니지만 저 방향으로 \\(θ\\)가 학습된다면 이후 가장 빠르게 Adaptation을 할 수 있게 된다.
   > \\(θ\\)는 이후 새로운 Task \\(T_i\\) 에 맞는 \\(θ^*\\)을 찾아간다. (Fast Adaptation)
 
-- \\(\min(θ)\sum(T_i~p(T)) L_T_i(f_θ\prime_i) = \sum(T_i~p(T)) L_T_i(f_θ_i) f_θ-\alpha \bigtriangledown_θ L_T_i (f_θ)  \\)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/171774971-d3017598-3cfb-40f7-bd01-470e8566e1fa.png" width="400" height="auto">
+</p>
+
+- \\(P(T)\\): 전체 Task, \\(T_i\\): 새로운 Task
+
+- 모델은 \\(θ\\)로 initialize 되어있고, Task에 맞는 loss function에 대해 SGD를 진행
+
+- 새로운 Task들에 대해 각각 \\(θ_i\prime\\)을 구하고, 각각의 \\(θ_i\prime\\)에 대한 gradient들의 합을 SGD해서 \\(θ\\)를 업데이트
+
+## 3. Species of MAML
+
+- 지도 학습과 강화학습에 대해 메타러닝 알고리즘에 대해 discuss한다.
+
+### 3.1. Supervised Regression and Classification
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/171775050-674a2ea5-7514-4d22-949b-ac596ee53044.png" width="400" height="auto">
+</p>
+
+- 대표적으로 Fewshot learning이 있다.
+  > Fewshot learning: 유사성을 학습하는 알고리즘. 이에 적은 데이터를 효율적으로 학습
+
+- 분류문제에서 Fewshot learning의 목표: 이전에 많은 다른 종류의 class를 본 모델을 사용하여 하나 또는 몇개를 본 후에 이미지를 분류하는 것 
+
+
+
+### 3.2 Reinforecement Learning
+
+- 생략
