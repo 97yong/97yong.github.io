@@ -18,7 +18,6 @@ last_modified_at: 2022-06-02 # 이 글을 수정한 날짜.
 ## 0. Information
 
 - 2022-06-02 기준 6131회 인용
-
 <br>
 
 ## 1. Introduction
@@ -39,16 +38,19 @@ last_modified_at: 2022-06-02 # 이 글을 수정한 날짜.
 - 새로운 Task의 데이터가 들어오면 여러 Task에 동시에 최적화된 Model의 Parameter를 찾는다.
 
 - 이 모델은 쉽게 다른 여러 neural network 모델과 결합될 수 있다.
+<br>
 
 ## 2. Model Agnoistic Meta-Learning
 
 - Model Agnoistic(모델과 상관없이) 훈련될 수 있는 Meta-Learning
+<br>
 
 ### 2.1. Meta-Learning Problem Set-Up
 
 - 목표: 작은 데이터와 적은 iteration으로 새로운 task에 대해 모델을 적응시키는 것
 
 - Generalized Model의 θ를 최적화 하는 방향으로 Gradient Descent를 진행
+<br>
 
 ### 2.2. A Model-Agnostic Meta-Learning Algorithm
 
@@ -71,12 +73,30 @@ last_modified_at: 2022-06-02 # 이 글을 수정한 날짜.
 
 - 모델은 \\(θ\\)로 initialize 되어있고, Task에 맞는 loss function에 대해 SGD를 진행
 
-- 새로운 Task들에 대해 각각 \\(θ_i\prime\\)을 구하고, 각각의 \\(θ_i\prime\\)에 대한 gradient들의 합을 SGD해서 \\(θ\\)를 업데이트
+- 새로운 Task들에 대해 각각 \\(θ_i\prime\\)을 구하고, 각각의 \\(θ_i\prime\\)에 대한 Loss들의 합을 SGD해서 \\(θ\\)를 업데이트
 
+- 계산과정에서 Hessian vector의 곱으로 계산되는데, 저자는 first-order approximation을 사용한다. (이는 5.2에서 다시 이야기한다.)
+
+  > 결론은 first-order approximation을 사용해도 정확도의 차이가 없다.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/171787444-b68557d1-a8ec-4688-9bcf-2a5af044c632.png" width="400" height="auto">
+</p>
+
+- 다시 그림을 그려 정리해보자면, 우리는 모델의 \\(θ\\)를 업데이트하는 것이 주목표이다.
+
+- 이를 위해 Task에 대한 각각의 gradient를 구해서 Task 각각에 대한 \\(θ_i\prime\\)를 찾는다. (여기서 한번에 찾을 수도 있고, 여러번에 걸쳐서 찾을 수도 있다.)
+
+- \\(θ_i\prime\\)을 모델에 넣어 자신의 Task에 해당하는 Loss를 구해 그에 대한 합을 최종 Loss로 생각한다.
+
+- 이에 대한 Loss를 업데이트를 반복해서 \\(θ\\)를 찾는다.
+
+<br>
 ## 3. Species of MAML
 
 - 지도 학습과 강화학습에 대해 메타러닝 알고리즘에 대해 discuss한다.
 
+<br>
 ### 3.1. Supervised Regression and Classification
 
 <p align="center">
@@ -88,8 +108,30 @@ last_modified_at: 2022-06-02 # 이 글을 수정한 날짜.
 
 - 분류문제에서 Fewshot learning의 목표: 이전에 많은 다른 종류의 class를 본 모델을 사용하여 하나 또는 몇개를 본 후에 이미지를 분류하는 것 
 
+<br>
+### 3.2. Reinforecement Learning
 
+- 생략 ( 본 포스터에서는 분류에 해당하는 문제만 다룸 )
 
-### 3.2 Reinforecement Learning
+<br>
+## 4. Related Work
 
-- 생략
+- Meta learning과 Few shot learning이 풀고자 하는 문제, 저자의 접근 방법등에 대한 전반적인 내용을 담고 있음.
+
+<br>
+## 5. Experimental Evaluation
+
+- ( 본 포스터에서는 분류 문제에 대해서만 다룸 )
+ 
+<br>
+### 5.2. Classification
+
+- Omniglot 과 MiniImagenet 데이터셋에 대해 실험
+
+- 모두 제안하는 방법이 우수한 결과를 보임.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/171790231-9bb00f8d-1510-4964-93c8-ca039d1fd476.png" width="400" height="auto">
+</p>
+
+- 위의 그림에서 제안하는 방법인 MAML을 이용한 알고리즘이 최종 목표에 잘 도달하는 것을 확인할 수 있다.
