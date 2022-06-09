@@ -11,7 +11,7 @@ toc: True  # Table of Contents. 포스트의 헤더들만 보여주는 목차를
 toc_sticky: False # true로 해주면 목차가 스크롤을 따라 움직이게 된다!
  
 date: 2022-04-29 # 글을 처음 작성한 날짜
-last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
+last_modified_at: 2022-06-09 # 이 글을 수정한 날짜.
 ---
 
 ## 1. 아나콘다 설치
@@ -31,7 +31,7 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
   >> A.가상환경을 만들 것이기 때문에 버전이 상관이 없습니다.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/172875191-ce95e5c6-cd5e-4779-a83d-6a8ba1387760.png" width="600" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/172875191-ce95e5c6-cd5e-4779-a83d-6a8ba1387760.png" width="400" height="auto">
 </p>
 
  - 이 부분이 뜨면 무조건 모두 체크를 눌러주세요. 나머지는 Default 값대로 진행해도 됩니다.
@@ -50,24 +50,25 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
 ### 2.1. 가상환경 설치
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165923260-bd73db7a-e8dd-465b-9e34-2baf59a9ad61.png" width="400" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/165923260-bd73db7a-e8dd-465b-9e34-2baf59a9ad61.png" width="500" height="auto">
 </p>
 
  - conda create -n "원하는 가상환경 이름" python=3.7 을 입력한다.
+ - 위의 사진은 앞으로 이렇게 입력하겠습니다.
+
+```py
+conda create yong python=3.7
+```
+
+ - yong 부분은 원하는 이름대로 사용해주면 되겠습니다.
  - 저는 주로 3.7버전을 사용하기 때문에 3.7이라고 입력을 하였고, 원하시는 버전에 따라 입력하시면 됩니다. (나중에 딥러닝 버전과 맞추기 위함입니다.)
  - y를 누르면 설치가 완료됩니다.
 
 ### 2.2 가상환경 활성화
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165923506-d4ef0c30-cddf-40cc-903f-f9266e22210a.png" width="400" height="auto">
-</p>
-
-- 위의 사진은 앞으로 이렇게 입력하겠습니다.
-
-``py
+```py
 conda activate yong
-``
+```
 
 - 가상환경에 접근하는 코드입니다.
 - 이를 통해 환경이 base에서 사용자가 지정한 가상환경에 접근하게 됩니다.
@@ -76,22 +77,26 @@ conda activate yong
 
 ### 2.3. ipykernel 설치
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165924144-c7fbc5ac-64a0-450b-aead-67d92084d327.png" width="400" height="auto">
-</p>
+```py
+conda install ipykernel jupyter
+```
 
 - 위 그림처럼 (yong)을 보시면 yong에 잘 접근이 된 것을 볼 수 있고 ipykernel 관련 라이브러리 사용을 위해 ipykernel을 설치해줍니다.
 - 저는 이미 설치되어 있어서 다음으로 넘어가겠습니다.
 
 ### 2.4. jupyter notebook 설치
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165924605-f06e1cb1-d283-4127-8042-75a3d1bcbf06.png" width="400" height="auto">
-</p>
+```py
+pip install jupyter
+```
 
 - <u>주피터 노트북</u>을 설치합니다.
 
 ### 2.5. 주피터 노트북 실행
+
+```py
+jupyter notebook
+```
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/165925033-7447eb29-0772-48bc-9c15-f1e1adb29edc.png" width="400" height="auto">
