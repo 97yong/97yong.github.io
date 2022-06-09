@@ -30,6 +30,12 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
   > Q. 버전은 어떤 것을 다운 받나요? 
   >> A.가상환경을 만들 것이기 때문에 버전이 상관이 없습니다.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/172875191-ce95e5c6-cd5e-4779-a83d-6a8ba1387760.png" width="600" height="auto">
+</p>
+
+ - 이 부분이 뜨면 무조건 모두 체크를 눌러주세요. 나머지는 Default 값대로 진행해도 됩니다.
+
 ### 1.2. 프롬프트 열기
 
 <p align="center">
@@ -56,6 +62,12 @@ last_modified_at: 2022-04-29 # 이 글을 수정한 날짜.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/165923506-d4ef0c30-cddf-40cc-903f-f9266e22210a.png" width="400" height="auto">
 </p>
+
+- 위의 사진은 앞으로 이렇게 입력하겠습니다.
+
+``py
+conda activate yong
+``
 
 - 가상환경에 접근하는 코드입니다.
 - 이를 통해 환경이 base에서 사용자가 지정한 가상환경에 접근하게 됩니다.
