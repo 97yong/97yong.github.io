@@ -38,7 +38,9 @@ pbar = tqdm(range(opt.epochs), unit = 'epoch')
 
 - 이에 대한 결과는 다음과 같습니다.
 
-![image](https://user-images.githubusercontent.com/104422044/174028786-7b293e2d-8a2e-487a-834e-59853c8be6ff.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/174028786-7b293e2d-8a2e-487a-834e-59853c8be6ff.png" width="800" height="auto">
+</p>
 
 
 - 포스트는 Window10 기준으로 작성되었습니다
