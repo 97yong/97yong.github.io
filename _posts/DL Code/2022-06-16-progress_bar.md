@@ -36,6 +36,10 @@ pbar = tqdm(range(opt.epochs), unit = 'epoch')
 
 - 저는 Domain adaptation 연구를 하고 있어 현재 라벨의 손실값과 도메인의 정확도를 postfix로 놔두었습니다.
 
+  > postfix에 대해 자세한 것은 코드와 아래 사진을 비교하면서 이해하시면 되겠습니다.
+
+- unit에는 자신이 사용하는 단위를 적어주면 됩니다.
+
 - 이에 대한 결과는 다음과 같습니다.
 
 <p align="center">
