@@ -1,5 +1,5 @@
 ---
-title:  "[Lecture 0] Python 설치"
+title:  "Python Anaconda 설치방법 (Window 기준)"
 excerpt: "파이썬 설치"
 
 categories:
