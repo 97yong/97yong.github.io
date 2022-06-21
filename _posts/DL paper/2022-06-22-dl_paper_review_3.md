@@ -17,7 +17,8 @@ last_modified_at: 2022-06-21 # 이 글을 수정한 날짜.
 
 ## Summary
 
-- 
+- open source data를 제공하고 transfer learning방법에 대한 성능비교를 한다.
+<br>
 
 ## 0. Information
 
