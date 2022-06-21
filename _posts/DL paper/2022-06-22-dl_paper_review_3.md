@@ -63,7 +63,6 @@ last_modified_at: 2022-06-21 # 이 글을 수정한 날짜.
 ### A. Defintion of UDTL
 
 - Source 도메인의 데이터 구성과 Target 도메인의 데이터 구성에 대해 설명 (생략)
-
 <br>
 
 ### B. Taxonomy of UDTL-Based IFD
@@ -78,14 +77,21 @@ last_modified_at: 2022-06-21 # 이 글을 수정한 날짜.
   > 레이블이 일치한다는 것은 Source에도 정상, 고장1, 고장2가 있으면 Target에도 똑같다. 하지만 일치하지 않는 경우에는 Source에 정상, 고장1, 고장2 가 있고 Target에는 정상, 고장2, 고장3이 있을 수도 있다. (이것에 대해서도 세부적으로 나누는 데 이는 생략하겠다.)
 
 - 그리고 Multi-domain UDTL에 대해서 Multi-domain adaptation과 domain generalization(DG)가 있다. Multi-domain adaptation의 경우에는 Target 데이터에 대해서 unlabeled된 상태로 들어가게 되고, DG의 경우에는 Target data를 학습에 전혀 사용하지 않는다.
+<br>
 
 ### C. Motivation of UDTL-Based IFD
 
 - UDTL은 4가지 다른 운행조건을 다룬다. (다른 운행조건, 다른 고장 유형, 다른 고장 위치, 다른 기계)
+<br>
 
 ### D. Structure of Backbone
 
-- 
+- 이미지 분야에서 다양한 Backbone이 많이 존재한다. (VGG, ResNet 등...)
+
+- 여러 논문에서 다양한 Backbone을 사용하고 있어 정확도에 대해 누가 더 좋은지 알기 어렵다. 논문에서는 CNN구조로 고정을 하였다.
+<br>
+
+- 이후 글은 양이 방대해서 본인이 관심있는 부분을 읽어주시면 되겠습니다.
 
 ## Reference
 
