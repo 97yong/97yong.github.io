@@ -12,7 +12,7 @@ toc_sticky: False # true로 해주면 목차가 스크롤을 따라 움직이게
 use_math: true
 
 date: 2022-05-16 # 글을 처음 작성한 날짜
-last_modified_at: 2022-05-16 # 이 글을 수정한 날짜.
+last_modified_at: 2022-06-21 # 이 글을 수정한 날짜.
 ---
 
 ## 0. Information
