@@ -92,6 +92,43 @@ last_modified_at: 2022-06-21 # 이 글을 수정한 날짜.
 
 ### 3.1. Domatin Adaptation problem
 
+- 전통적인 모델들은 레이블된 데이터로 훈련되고 같은 분포에 대해 레이블이 없는 데이터로 전이되었지만, 현실적인 상황에서 도메인 adaptation 문제는 분포가 다르다. 저자들은 이러한 상황에서 문제를 풀고자 하고 다른 운행조건안에 generalized 되도록 하는 모델을 만들어 해결하고 한다.
+- 기본적으로 Domain Adaptation 문제에서 source 도메인에 대한 분포와 target 도메인에 대한 분포는 다르다고 가정한다.
+<br>
+
+### 3.2. Basic principle of MMD
+
+- p와 q분포로 부터 X와 Y를 random variable이라고 생각할 때, 두 분포 사이에 MMD를 정의할 수 있다.
+- MMD는 p와 q의 분포 사이에 discrepancy를 측정한다.
+<br>
+
+## 4. The proposed model
+
+### 4.1. Weighted quantile discrepancy
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/174722053-0a0f753d-c4e3-4f5c-bd86-315ecbbd30f7.png" width="400" height="auto">
+</p>
+
+- input data에 대해 타우번째 quantile의 분포가 Q이다. 또한, Hilbert를 사용하지 않고 프사이를 사용하였는데, 이는 추가적인 제약조건 없이 linear나 non-linear 변환이 될 수 있다.
+- 타우는 (0,1)로 정해질 수 있다.
+
+- Weighted Quantile(WQ)는 모든 quantile level들을 평균한 것인데, 각 quantile마다 weight를 주어 계산하게 된다.
+
+  1. space map에서 projection vector을 얻는다.
+  2. 주어진 quantile 수치에 대해 두개의 dataset의 quantile value 사이에 제곱을 계산한다.
+  3. Weighted sum을 계산한다.
+
+### 4.2. Deep weighted quantile domain adaptation network(DWQDAN)
+
+- 모델은 전체적으로 5개로 이루어진다. (전처리 과정, shared 신경망, 고장 분류기, 도메인 판별기, 분포 discrepancy)
+- 전처리는 Wavelet transform을 통해 이미지로 만들어진다.
+
+  > 개인적으로 신기했던 점: WQ를 하기 위해 새로운 layer를 만들어 나온 노드에 대해서 loss를 계산 (그림 4에서 보면, WQ의 loss를 계산하기 위해 만들어진 layer의 node에 따라 성능을 비교한 것을 볼 수 있음 - 256의 node가 가장 좋았음.)
+
+## 5. Result
+
+- result와 conclusion은 
 
 ## Reference
 
