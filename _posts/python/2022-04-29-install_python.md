@@ -28,7 +28,7 @@ last_modified_at: 2022-06-09 # 이 글을 수정한 날짜.
 
  - Download를 눌러주세요!
   > Q. 버전은 어떤 것을 다운 받나요? 
-  >> A.가상환경을 만들 것이기 때문에 버전이 상관이 없습니다.
+  >> A. 가상환경을 만들 것이기 때문에 버전이 상관이 없습니다.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/172875191-ce95e5c6-cd5e-4779-a83d-6a8ba1387760.png" width="400" height="auto">
