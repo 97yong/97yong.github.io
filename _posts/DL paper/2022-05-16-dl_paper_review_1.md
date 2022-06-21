@@ -15,6 +15,13 @@ date: 2022-05-16 # 글을 처음 작성한 날짜
 last_modified_at: 2022-06-21 # 이 글을 수정한 날짜.
 ---
 
+## Summary
+
+- MMD의 시간 복잡도가 크기 때문에 시간 복잡도가 낮은 Weighted Qunatile을 제시
+- 데이터 분포에서 quantile마다 weighted를 주어 discrepency를 계산
+- 이를 계산할 때는 새로운 레이어를 추가해 high dimension을 만들었고, 이에 대한 파라미터 스터디도 진행
+- DANN과 MMD에 대한 논문 조사가 괜찮게 되어 있음.
+
 ## 0. Information
 
 - 2022-05-16 기준 0회 인용
