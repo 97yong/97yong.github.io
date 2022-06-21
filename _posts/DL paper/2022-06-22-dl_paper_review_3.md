@@ -53,7 +53,7 @@ last_modified_at: 2022-06-21 # 이 글을 수정한 날짜.
 
 - Main Contibution
 
-  1. 훈련에 source 도메인은 얼마나 써야하고, target 데이터는 어떻게 써야하는지를 다룬다.
+  1. 새로운 분류법 도입
   2. 데이터를 split하는 방법에 대해 논의한다.
   3. 여러 UDTL을 평가하고 비교한다. 그리고 backbone에 대한 영향, negative transfer에 대한 영향을 다룬다.
   4. Open source code를 제공한다. <https://github.com/ZhaoZhibin/UDTL/tree/master/datasets>
@@ -67,14 +67,26 @@ last_modified_at: 2022-06-21 # 이 글을 수정한 날짜.
 
 <br>
 
-### B. 
+### B. Taxonomy of UDTL-Based IFD
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/174751062-578bc48f-1789-475e-9e0d-088f570bd5f9.png" width="600" height="auto">
 </p>
 
+- 그림과 같이 UDTL의 종류를 나눌 수 있다.
+- 우선 single domain에 대해 label-consistent(Source와 Target의 레이블이 일치하는 경우)와 label-inconsistent(Source 레이블과 Target 레이블이 일치하지 않는 경우)가 있다.
 
+  > 레이블이 일치한다는 것은 Source에도 정상, 고장1, 고장2가 있으면 Target에도 똑같다. 하지만 일치하지 않는 경우에는 Source에 정상, 고장1, 고장2 가 있고 Target에는 정상, 고장2, 고장3이 있을 수도 있다. (이것에 대해서도 세부적으로 나누는 데 이는 생략하겠다.)
 
+- 그리고 Multi-domain UDTL에 대해서 Multi-domain adaptation과 domain generalization(DG)가 있다. Multi-domain adaptation의 경우에는 Target 데이터에 대해서 unlabeled된 상태로 들어가게 되고, DG의 경우에는 Target data를 학습에 전혀 사용하지 않는다.
+
+### C. Motivation of UDTL-Based IFD
+
+- UDTL은 4가지 다른 운행조건을 다룬다. (다른 운행조건, 다른 고장 유형, 다른 고장 위치, 다른 기계)
+
+### D. Structure of Backbone
+
+- 
 
 ## Reference
 
