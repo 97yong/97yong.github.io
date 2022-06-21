@@ -41,12 +41,12 @@ last_modified_at: 2022-06-21 # 이 글을 수정한 날짜.
 
 - Distance metircs도 Domain Adaptation에 직접적인 영향을 미쳤다. 대표적으로는 MMD(Maximum Mean Discrepancy: 최대평균불일치)가 있다.
 - 위의 MMD는 <https://97yong.github.io/dl%20study/mmd/> 여기를 참고하자.
-- 하지만 MMD는 Time Complexity를 크게 가짐 //(O(n^2 + 2nm + m^2)//)
+- 하지만 MMD는 Time Complexity를 크게 가짐 \\(O(n^2 + 2nm + m^2)\\)
 - 많은 기계 데이터들은 다루기가 어렵고, Gaussian kernel parameter도 튜닝되어야한다.
 - MMD와 비슷한 CMD가 있지만 공학적인 task에서는 사용이 잘 되지 않는다.
 
 - 본 논문에서는 MMD와 CMD에 영감을 받아 WQD(Weighted Quantile Discrepancy)를 제안한다.
-- Time Complexity는 //(O(n + m)//)으로 줄어들었다. 또한 더 정확하다.
+- Time Complexity는 \\(O(n + m)\\)으로 줄어들었다. 또한 더 정확하다.
 
 - <b>Main Contribution</b>
   - WQD는 디자인 되었고 MMD, CMD와 비교했을 때 더 정확하고 빠르다.
