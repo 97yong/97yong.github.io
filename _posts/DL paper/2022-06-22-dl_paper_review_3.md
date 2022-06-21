@@ -75,10 +75,6 @@ last_modified_at: 2022-06-21 # 이 글을 수정한 날짜.
 
 
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/167419716-bd7da8f8-0830-4c35-b2e3-2fc21bff657a.png" width="600" height="auto">
-</p>
-
 
 ## Reference
 
