@@ -47,6 +47,8 @@ last_modified_at: 2022-06-28 # 이 글을 수정한 날짜.
 
 - 따라서 여러 도메인에 대해 <u>Gerneric diagnosis knowledge</u>가 필요하다.
 
+- 본 논문은 Domain generalization (DG) 문제를 해결하고자 한다.
+
 <!-- <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/174751062-578bc48f-1789-475e-9e0d-088f570bd5f9.png" width="600" height="auto">
 </p>
