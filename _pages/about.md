@@ -71,7 +71,7 @@ sidebar_main: False
 ## Domestic Conference
 ---
 ### 1. Korean Society of Mechanical Engineers (KSME) 2022 Spring Annual Meeting
- - Kim Y.C., Ko J.U., Lee J., Kim T., Youn B.D., "Pseudo-labeling-based Domain Diagnosis for Fault Detection in Rotating Machinery," Proceedings of the Korean Society of Mechanical Engineers (KSME) 2022 Spring Annual Meeting, Busan, Korea, May 18-21, 2022
+ - <b>Kim Y.C.<b/>, Ko J.U., Lee J., Kim T., Youn B.D., "Pseudo-labeling-based Domain Adaptation for Fault Diagnosis in Rotating Machinery," Proceedings of the Korean Society of Mechanical Engineers (KSME) 2022 Spring Annual Meeting, Busan, Korea, May 18-21, 2022
 <br>
 
 ---
