@@ -12,7 +12,7 @@ toc_sticky: False # true로 해주면 목차가 스크롤을 따라 움직이게
 use_math: true
 
 date: 2022-06-28 # 글을 처음 작성한 날짜
-last_modified_at: 2022-07-06 # 이 글을 수정한 날짜.
+last_modified_at: 2022-07-28 # 이 글을 수정한 날짜.
 ---
 
 ## Summary
@@ -87,9 +87,13 @@ last_modified_at: 2022-07-06 # 이 글을 수정한 날짜.
 
 ### A. Generic Domain-Regressive Framework
 
+- 각 샘플들은 FFT와 reshape을 통해 2D 이미지로 변환된다.
+
+- domain classifier에 SN(Spectral Normalization)을 사용한다.
+
+### B. Feature Normalization Strategy
+
 - 
-
-
 
 
 
