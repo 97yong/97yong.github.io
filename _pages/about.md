@@ -52,7 +52,7 @@ sidebar_main: False
 
 ## COMPETITIONS
 ---
-### 1. 2022 PHM Society 데이터 챌린지, 2021년 10월 - 2위
+### 1. 2022 PHM Society 데이터 챌린지, 2022년 8월 - 2위
  - Prognostics and Health Management (PHM) Society Data Challenge, August, 2022<br>
  - Leaderboard: <a href="https://data.phmsociety.org/2022-phm-conference-data-challenge/">https://data.phmsociety.org/2022-phm-conference-data-challenge/</a>
 <br>
