@@ -52,12 +52,17 @@ sidebar_main: False
 
 ## COMPETITIONS
 ---
-### 1. 현대중공업그룹 제2회 조선/해양산업 디지털 혁신을 위한 Big Data/AI 경진대회, 2022년 2월 - 장려상
+### 1. 2022 PHM Society 데이터 챌린지, 2021년 10월 - 2위
+ - Prognostics and Health Management (PHM) Society Data Challenge, August, 2022<br>
+ - Leaderboard: <a href="https://data.phmsociety.org/2022-phm-conference-data-challenge/">https://data.phmsociety.org/2022-phm-conference-data-challenge/</a>
+<br>
+
+### 2. 현대중공업그룹 제2회 조선/해양산업 디지털 혁신을 위한 Big Data/AI 경진대회, 2022년 2월 - 장려상
  - The Encourage Prize, Hyundai Heavy Industries Group The 2nd Shipbuilding/Marine Big Data/AI Contest for Digital Innovation, February, 2022<br>
  - Link: <a href="https://me.snu.ac.kr/ko/board/news/view/15704">https://me.snu.ac.kr/ko/board/news/view/15704</a>
 <br>
 
-### 2. 2021 PHM Society 데이터 챌린지, 2021년 10월 - 4위
+### 3. 2021 PHM Society 데이터 챌린지, 2021년 10월 - 4위
  - Prognostics and Health Management (PHM) Society Data Challenge, October, 2021<br>
  - Leaderboard: <a href="https://data.phmsociety.org/2021-phm-conference-data-challenge-winners/">https://data.phmsociety.org/2021-phm-conference-data-challenge-winners/</a>
 <br>
