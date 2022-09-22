@@ -17,7 +17,7 @@ last_modified_at: 2022-09-22 # 이 글을 수정한 날짜.
 
 ## Summary
 
-- 기존의 Domain Adversarial Network들은 Invariant한 Marginal distribution을 보증해왔다.
+- 기존의 Domain Adversarial Network들은 Invariant한 Marginal distribution이 변함없다고 가정해왔다.
 
 - 하지만, Domain generalization에서 Conditional distribution이 중요한데, 본 논문에서는 Entropy Regularization을 사용해 목적을 이루어내었다.
 
