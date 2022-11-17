@@ -72,10 +72,19 @@ sidebar_main: False
 
 ## International Conference
 ---
+### 1. Conference of the Prognostics and Health Management Society 2022
+ - <b>Kim Y. C.</b>, Kim T., Ko J. U., Lee J., Kim K., "Domain Adaptation based Fault Diagnosis under Variable Operating Conditions of a Rock Drill," Annual Conference of the Prognostics and Health Management Society 2022, Nashville, U.S, November 1-4, 2022
+<br>
+
+---
 
 ## Domestic Conference
 ---
-### 1. Korean Society of Mechanical Engineers (KSME) 2022 Spring Annual Meeting
+### 1. Korean Society of Mechanical Engineers (KSME) 2022 Annual Meeting
+- <b>Kim Y.C.</b>, Ko J.U., Lee J., Kim T., Youn B.D., "Instance Distance in Latent Space based Domain Adaptation for Fault Diagnosis in Rotating Machinery," Proceedings of the Korean Society of Mechanical Engineers (KSME) 2022 Annual Meeting, Jeju, Korea, November 9-12, 2022
+<br>
+
+### 2. Korean Society of Mechanical Engineers (KSME) 2022 Spring Annual Meeting
  - <b>Kim Y.C.</b>, Ko J.U., Lee J., Kim T., Youn B.D., "Pseudo-labeling-based Domain Adaptation for Fault Diagnosis in Rotating Machinery," Proceedings of the Korean Society of Mechanical Engineers (KSME) 2022 Spring Annual Meeting, Busan, Korea, May 18-21, 2022
 <br>
 
