@@ -63,7 +63,7 @@ sidebar_main: False
 <br>
 
 ### 3. 현대중공업그룹 제2회 조선/해양산업 디지털 혁신을 위한 Big Data/AI 경진대회, 2022년 2월 - 장려상
- - The Encourage Prize, Hyundai Heavy Industries Group The 2nd Shipbuilding/Marine Big Data/AI Contest for Digital Innovation, February, 2022<br>
+ - Hyundai Heavy Industries Group The 2nd Shipbuilding/Marine Big Data/AI Contest for Digital Innovation, February, 2022<br>
  - Link: <a href="https://me.snu.ac.kr/ko/board/news/view/15704">https://me.snu.ac.kr/ko/board/news/view/15704</a>
 <br>
 
