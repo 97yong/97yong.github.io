@@ -102,6 +102,8 @@ class Model(nn.Module):
 model = Model().to(device)
 ```
 
+ - 저는 간단하게 CNN모델을 사용하였습니다.
+
 ### 1.6 파라미터 정의
 
 ```py
