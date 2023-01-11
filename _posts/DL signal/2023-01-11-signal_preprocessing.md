@@ -18,7 +18,7 @@ last_modified_at: 2023-01-11 # 이 글을 수정한 날짜.
 ## 0. 1차원 신호
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/211735827-5d1a055d-27c2-4261-a6a4-3e740ffa2f66.png" width="600" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/211735827-5d1a055d-27c2-4261-a6a4-3e740ffa2f66.png" width="400" height="auto">
 </p>
 
  - 안녕하세요! 방학한 기념으로 시간이 날 때마다 1차원 신호에 대해 딥러닝을 할 수 있도록 차근차근 설명을 시작해보려고 합니다.
@@ -98,8 +98,9 @@ plt.plot(signal['X130_DE_time'][:2000], 'black')
  - key를 'X130_DE_time'으로 입력해주고 데이터의 길이가 길기 때문에 2000까지만 plot하게 되면 다음과 같은 신호가 출력되게 됩니다!
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/211735827-5d1a055d-27c2-4261-a6a4-3e740ffa2f66.png" width="600" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/211735827-5d1a055d-27c2-4261-a6a4-3e740ffa2f66.png" width="400" height="auto">
 </p>
+<br>
 
  ## 1.4 데이터 획득 Class화 하기
  
