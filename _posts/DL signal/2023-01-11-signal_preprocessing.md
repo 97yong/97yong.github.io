@@ -50,7 +50,7 @@ last_modified_at: 2023-01-11 # 이 글을 수정한 날짜.
 ```py
 import sys
 import os
-import numpy
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 ```
@@ -60,11 +60,11 @@ import matplotlib.pyplot as plt
  ## 1.2 Matlab 파일 처리하기
 
 ```py
-data_path = os.path.join(os.getcwd(), 'data')
+data_path = os.path.join(os.getcwd(), 'data/')
 
 from scipy.io import loadmat
 
-signal = loadmat(data_path + '/130.mat')
+signal = loadmat(data_path + '130.mat')
 
 print(signal)
 ```
@@ -95,3 +95,61 @@ plt.plot(signal['X130_DE_time'][:2000], 'black')
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/211735827-5d1a055d-27c2-4261-a6a4-3e740ffa2f66.png" width="600" height="auto">
 </p>
+
+ ## 1.4 데이터 획득 Class화 하기
+ 
+ ```py
+ class cwru_dataset():
+    def __init__(self, data_dir, save_dir, data_list, data_info, condition_list, name, random_seed):
+        self.data_dir = data_dir
+        self.save_dir = save_dir
+        self.data_list = data_list
+        self.data_info = data_info
+        self.condition_list = condition_list
+        self.name = name
+        self.random_seed = random_seed
+        
+        self.window_size = 1200
+        self.num_data = 4000
+    
+    def get_data(self):
+        # Normal = 0 Inner = 1 Ball = 2 Outer = 3
+        X_data = np.zeros((self.num_data * len(self.data_list), self.window_size))
+        Y_data = np.zeros((self.num_data * len(self.data_list), len(self.data_list)))
+        for k, data in enumerate(self.data_list):
+            signal = loadmat(self.data_dir  + data)[self.data_info[k]]
+
+            # sliding window
+            ix = list(range(0, len(signal)-self.window_size, int((len(signal)-100)/self.num_data)))[:self.num_data]
+            
+            for i, idx in enumerate(ix):
+                X_data[i + k * self.num_data] = signal[idx : idx + self.window_size].reshape(1, self.window_size)
+                Y_data[i + k * self.num_data] = np.eye(len(self.condition_list))[k]
+        
+        np.save(self.save_dir + 'X_CWRU{}'.format(name), X_data)
+        np.save(self.save_dir + 'Y_CWRU{}'.format(name), Y_data)
+        
+        print('Complete {}'.format(self.name))
+```
+
+- 파이썬에 생소하신 분들은 조금 어려울 수 있지만, Class를 조금 배우고 사용하시면 간편하게 데이터를 불러오실 수 있을 것 같아요.
+- 딥러닝을 돌리는 것이 최종목표이기 때문에 X값과 Y값을 지정해주었습니다.
+- 데이터가 길기 때문에, sliding window방식으로 데이터를 잘라주었습니다.
+- 천천히 읽어보시면서 이해가 어려운 부분은 댓글이나 메일로 문의 부탁드립니다 :)
+
+
+```py
+data_path = os.path.join(os.getcwd(), 'data/')
+
+data_list = ['130.mat']
+data_info = ['X130_DE_time']
+condition_list = ['OR']
+name = '_raw_data'
+cwru_dataset(data_path, data_path, data_list, data_info, condition_list, name, 42).get_data()
+```
+
+ - 최종적으로 다음과 같은 코드를 실행하면, 입력한 폴더로 data가 저장됩니다.
+
+
+## Reference
+Loparo, K. A. "Case western reserve university bearing data center." Bearings Vibration Data Sets, Case Western Reserve University (2012): 22-28.
