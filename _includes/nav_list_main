@@ -52,7 +52,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DL Signal" %}
-                        <li><a href="/categories/dl-code" class="">신호 딥러닝 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/dl-signal" class="">신호 딥러닝 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
