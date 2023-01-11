@@ -40,12 +40,14 @@ last_modified_at: 2023-01-11 # 이 글을 수정한 날짜.
   <div align="center">
   Data Link: <a href="https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data">1 dimensional signal - CWRU DATASET</a>
   </div>
-  
-  <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/211737336-b3b3f501-00ca-4d90-ab73-6028a3da0a37.png" width="600" height="auto">
-</p>
+  <br>
   
   - 데이터를 다운받으시고 다음과 같이 아무 폴더에 data 폴더를 만들고 data폴더에 데이터를 넣어주세요. (파이썬을 잘 다루시는 분들이라면 상관없지만, 처음부터 따라오시는 분들을 위해 추천합니다.)
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104422044/211737336-b3b3f501-00ca-4d90-ab73-6028a3da0a37.png" width="600" height="auto">
+</p>
+
   - jupyter lab이나 jupyter notebook을 켜서 코딩을 시작하도록 하겠습니다. (파이썬 설치나, pytorch 설치가 안되신 분들은 블로그에 설치순서대로 다운해주시면 되겠습니다.)
 <br>
 
