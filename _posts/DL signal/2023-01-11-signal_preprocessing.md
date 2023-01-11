@@ -37,7 +37,9 @@ last_modified_at: 2023-01-11 # 이 글을 수정한 날짜.
   
   > 베어링 고장은 대표적으로 내륜고장, 볼고장, 외륜고장이 존재합니다. 저는 고장특성이 잘 드러나는 외륜고장으로 사용하였습니다. ( 추가적으로 궁금하신 분은 댓글 부탁드립니다 :) )
   
+  <div align="center">
   Data Link: <a href="https://engineering.case.edu/bearingdatacenter/12k-drive-end-bearing-fault-data">1 dimensional signal - CWRU DATASET</a>
+  </div>
   
   <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/211737336-b3b3f501-00ca-4d90-ab73-6028a3da0a37.png" width="600" height="auto">
