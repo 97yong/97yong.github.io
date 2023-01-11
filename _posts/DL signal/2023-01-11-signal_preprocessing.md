@@ -106,7 +106,7 @@ plt.plot(signal['X130_DE_time'][:2000], 'black')
 </p>
 <br>
 
-### 2. 데이터 획득 Class화 하기
+## 2. 데이터 획득 Class화 하기
  
  ```py
  class cwru_dataset():
