@@ -1,5 +1,5 @@
 ---
-title:  "[Lecture 0] 1차원 신호처리 (딥러닝)"
+title:  "[Lecture 1] 1차원 신호처리 (딥러닝)"
 excerpt: "딥러닝을 위한 1차원 신호처리"
 
 categories:
@@ -15,7 +15,7 @@ date: 2023-01-11 # 글을 처음 작성한 날짜
 last_modified_at: 2023-01-11 # 이 글을 수정한 날짜.
 ---
 
-## 0. 1차원 신호
+## 1. 1차원 신호
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104422044/211735827-5d1a055d-27c2-4261-a6a4-3e740ffa2f66.png" width="400" height="auto">
@@ -30,7 +30,7 @@ last_modified_at: 2023-01-11 # 이 글을 수정한 날짜.
  - 1차원 신호는 단순하게 표현될 수 있지만, 이미지와 달리 물리적인 요소가 굉장히 많이 포함되어 있어 전기전자공학, 기계공학에서 주로 다루게 됩니다.
  <br>
  
-## 1. 데이터 불러오기
+## 2. 데이터 불러오기
  
   - 본격적으로 데이터를 불러오는 과정을 포스팅하겠습니다.
   - 저는 아래의 CWRU bearing data를 사용하였습니다. 이번 포스트에서는 0.007" 0HP, OR007@6_0 데이터를 사용하겠습니다.
@@ -51,7 +51,7 @@ last_modified_at: 2023-01-11 # 이 글을 수정한 날짜.
   - jupyter lab이나 jupyter notebook을 켜서 코딩을 시작하도록 하겠습니다. (파이썬 설치나, pytorch 설치가 안되신 분들은 블로그에 설치순서대로 다운해주시면 되겠습니다.)
 <br>
 
-### 1.1 라이브러리 불러오기
+### 2.1 라이브러리 불러오기
 
 ```py
 import sys
@@ -64,7 +64,7 @@ import matplotlib.pyplot as plt
  - 우선 사용할 파이썬 라이브러리를 불러옵니다.
  <br>
  
-### 1.2 Matlab 파일 처리하기
+### 2.2 Matlab 파일 처리하기
 
 ```py
 data_path = os.path.join(os.getcwd(), 'data/')
@@ -93,7 +93,7 @@ print(signal)
  - 저희는 Drive End의 파일을 불러오도록 하겠습니다.
  <br>
  
-### 1.3 데이터 Plot
+### 2.3 데이터 Plot
  
  ```py
 plt.plot(signal['X130_DE_time'][:2000], 'black')
@@ -106,7 +106,7 @@ plt.plot(signal['X130_DE_time'][:2000], 'black')
 </p>
 <br>
 
-## 2. 데이터 획득 Class화 하기
+## 3. 데이터 획득 Class화 하기
  
  ```py
  class cwru_dataset():
@@ -161,5 +161,5 @@ cwru_dataset(data_path, data_path, data_list, data_info, condition_list, name, 4
  - 최종적으로 다음과 같은 코드를 실행하면, 입력한 폴더로 data가 저장됩니다.
 <br>
 
-## Reference
+## 4. Reference
 Loparo, K. A. "Case western reserve university bearing data center." Bearings Vibration Data Sets, Case Western Reserve University (2012): 22-28.
