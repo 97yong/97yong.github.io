@@ -57,7 +57,7 @@ last_modified_at: 2022-06-09 # 이 글을 수정한 날짜.
  - 위의 사진은 앞으로 이렇게 입력하겠습니다.
 
 ```py
-conda create yong python=3.7
+conda create -n yong python=3.7
 ```
 
  - yong 부분은 원하는 이름대로 사용해주면 되겠습니다.
