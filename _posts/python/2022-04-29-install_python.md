@@ -50,7 +50,7 @@ last_modified_at: 2023-03-06 # 이 글을 수정한 날짜.
 ### 2.1. 가상환경 설치
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104422044/165923260-bd73db7a-e8dd-465b-9e34-2baf59a9ad61.png" width="500" height="auto">
+  <img src="https://user-images.githubusercontent.com/104422044/223001102-725096fb-d410-4faa-bf9a-9962e1227b92.png" width="500" height="auto">
 </p>
 
  - conda create -n "원하는 가상환경 이름" python=3.7 을 입력한다.
