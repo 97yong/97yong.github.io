@@ -11,7 +11,7 @@ toc: True  # Table of Contents. 포스트의 헤더들만 보여주는 목차를
 toc_sticky: False # true로 해주면 목차가 스크롤을 따라 움직이게 된다!
  
 date: 2022-04-29 # 글을 처음 작성한 날짜
-last_modified_at: 2022-06-09 # 이 글을 수정한 날짜.
+last_modified_at: 2023-03-06 # 이 글을 수정한 날짜.
 ---
 
 ## 1. 아나콘다 설치
