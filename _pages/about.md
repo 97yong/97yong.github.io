@@ -30,7 +30,7 @@ sidebar_main: False
 <br>
 
 ### B.S. in Mechanical Engineering, Yonsei University (2016.03~2022.02)
-- Summa cum laude, Rank: 1/97
+- Summa cum laude, Rank: 1/142
 <br>
 
 ## AWARDS AND SCHOLARSHIPS
