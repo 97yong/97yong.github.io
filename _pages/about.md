@@ -52,23 +52,28 @@ sidebar_main: False
 
 ## COMPETITIONS
 ---
-### 1. 제 4회 POSTECH OIBC Challenge – 태양광 발전량 예측 경진대회, 2022년 12월 - 우수상
- - POSTECH Open Innovation Big Data Challenge Competition, December, 2022<br>
+### 1. Winner (The 1st Place Winner), 2023 IEEE ICPHM Data Challenge Competition, April 2023
+ - 2023 IEEE ICPHM 데이터 챌린지, 2023년 4월 - 1위<br>
+ - Leaderboard: <a href="https://phmconf.org/index.html">https://phmconf.org/</a>
+<br>
+
+### 2. Excellence Prize, POSTECH Open Innovation Big Data Challenge Competition, December 2022
+ - 제 4회 POSTECH OIBC Challenge – 태양광 발전량 예측 경진대회, 2022년 12월 - 우수상<br>
  - Leaderboard: <a href="https://shrm.snu.ac.kr/index.php?hCode=BOARD&bo_idx=2&idx=1001&page=view">https://shrm.snu.ac.kr/BOARD/</a>
 <br>
 
-### 2. 2022 PHM Society 데이터 챌린지, 2022년 8월 - 2위
- - Prognostics and Health Management (PHM) Society Data Challenge, August, 2022<br>
+### 3. Winner (The 2nd Place Winner), PHM Society 2022 Data Challenge Competition, August 2022
+ - 2022 PHM Society 데이터 챌린지, 2022년 8월 - 2위<br>
  - Leaderboard: <a href="https://data.phmsociety.org/2022-phm-conference-data-challenge/">https://data.phmsociety.org/2022-phm-conference-data-challenge/</a>
 <br>
 
-### 3. 현대중공업그룹 제2회 조선/해양산업 디지털 혁신을 위한 Big Data/AI 경진대회, 2022년 2월 - 장려상
- - Hyundai Heavy Industries Group The 2nd Shipbuilding/Marine Big Data/AI Contest for Digital Innovation, February, 2022<br>
+### 4. Encouragement Award, Hyundai Heavy Industries Group The 2nd Shipbuilding/Marine Big Data/AI Contest for Digital Innovation, February 2022
+ - 현대중공업그룹 제2회 조선/해양산업 디지털 혁신을 위한 Big Data/AI 경진대회, 2022년 2월 - 장려상<br>
  - Link: <a href="https://me.snu.ac.kr/ko/board/news/view/15704">https://me.snu.ac.kr/ko/board/news/view/15704</a>
 <br>
 
-### 4. 2021 PHM Society 데이터 챌린지, 2021년 10월 - 4위
- - Prognostics and Health Management (PHM) Society Data Challenge, October, 2021<br>
+### 5. 4th Place, PHM Society 2021 Data Challenge Competition, October 2021
+ - 2021 PHM Society 데이터 챌린지, 2021년 10월 - 4위<br>
  - Leaderboard: <a href="https://data.phmsociety.org/2021-phm-conference-data-challenge-winners/">https://data.phmsociety.org/2021-phm-conference-data-challenge-winners/</a>
 <br>
 
