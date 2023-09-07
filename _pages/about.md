@@ -32,7 +32,7 @@ sidebar_main: False
 
 ### Bachelor of Science (B.S.) / Department of Mechanical Engineering, Yonsei University (2016.03~2022.02)
 - Summa cum laude, Rank: 1/142
-<be>
+<br>
 
 ## Work Experience
 ---
