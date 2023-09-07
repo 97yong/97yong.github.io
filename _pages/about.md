@@ -38,6 +38,7 @@ sidebar_main: False
 ---
 ### 1. ONEPREDICT Inc.
 - PdX Department, Data Scientist Team (2023.06~2023.12, Internship)
+<br>
 
 ## AWARDS AND SCHOLARSHIPS
 ---
