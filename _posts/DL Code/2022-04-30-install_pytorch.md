@@ -62,9 +62,13 @@ python -m ipykernel install --user --name 이름 --display-name “이름”
 ### 1.5. pytorch 설치
 
 *주의사항
+
 <https://en.m.wikipedia.org/wiki/CUDA#GPUs_supported>
+
 여기서 사용하고 있는 GPU를 확인하셔서 CUDA 가능 버전 찾고,
+
 <https://pytorch.org/get-started/previous-versions/>
+
 여기서 cuda 버전 같이 적혀있는 명령어 사용하시면, cuda, cudnn 자동으로 맞춰줘서 cuda 작동될 겁니다!
 
 ```py
