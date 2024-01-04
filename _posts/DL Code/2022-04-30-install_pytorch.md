@@ -63,17 +63,19 @@ python -m ipykernel install --user --name 이름 --display-name “이름”
 
 *주의사항
 
-<https://en.m.wikipedia.org/wiki/CUDA#GPUs_supported>
+  <https://en.m.wikipedia.org/wiki/CUDA#GPUs_supported>
 
-여기서 사용하고 있는 GPU를 확인하셔서 CUDA 가능 버전 찾고,
+- 여기서 사용하고 있는 GPU를 확인하셔서 CUDA 가능 버전 찾고,
 
-<https://pytorch.org/get-started/previous-versions/>
+  <https://pytorch.org/get-started/previous-versions/>
 
-여기서 cuda 버전 같이 적혀있는 명령어 사용하시면, cuda, cudnn 자동으로 맞춰줘서 cuda 작동될 겁니다!
+- 여기서 cuda 버전 같이 적혀있는 명령어 사용하시면, cuda, cudnn 자동으로 맞춰줘서 cuda 작동될 겁니다!
+
 
 ```py
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
 ```
+
 
 - 파이토치와 cudatoolkit(GPU연산을 가능하게 해주는 도구)를 설치해줍니다.
 
