@@ -61,10 +61,14 @@ python -m ipykernel install --user --name 이름 --display-name “이름”
 
 ### 1.5. pytorch 설치
 
-- 자신의 그래픽카드가 GTX의 종류가 아닌 경우 2.1을 먼저 읽어주세요.
+*주의사항
+<https://en.m.wikipedia.org/wiki/CUDA#GPUs_supported>
+여기서 사용하고 있는 GPU를 확인하셔서 CUDA 가능 버전 찾고,
+<https://pytorch.org/get-started/previous-versions/>
+여기서 cuda 버전 같이 적혀있는 명령어 사용하시면, cuda, cudnn 자동으로 맞춰줘서 cuda 작동될 겁니다!
 
 ```py
-conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
 ```
 
 - 파이토치와 cudatoolkit(GPU연산을 가능하게 해주는 도구)를 설치해줍니다.
@@ -98,16 +102,7 @@ print(device)
  - 결과가 cuda 라고 떴으면 성공입니다.
 
  > Q. 결과가 cpu라고 뜹니다.
- >> A. 아래의 2.1을 확인해주세요.
-
-### 2.1. gpu가속이 안되는 경우
-
- - 저는 GTX 1080Ti 버전에서 설치를 했습니다.
- - 간혹 GPU에 따라 버전이 맞지 않는 경우가 있습니다.
- - RTX A6000 그래픽 카드에서는 10.2를 11.3으로 변경해주어야 했습니다.
- 
- - <https://www.nvidia.co.kr/Download/index.aspx?lang=kr>
- - 자신의 환경에 맞는 gpu를 설치합니다.
+ >> A. 1.5의 주의사항을 다시 읽어주시길 바랍니다.
  - Window키+R -> cmd 를 입력합니다. (주의: anaconda prompt와 다른 프롬프트입니다.)
  - nvcc -V 를 입력하고 release 뒤에 오는 버전이 Cuda 버전입니다.
  
