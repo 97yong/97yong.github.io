@@ -61,7 +61,7 @@ python -m ipykernel install --user --name 이름 --display-name “이름”
 
 ### 1.5. pytorch 설치
 
-*주의사항
+- 주의사항
 
   <https://en.m.wikipedia.org/wiki/CUDA#GPUs_supported>
 
