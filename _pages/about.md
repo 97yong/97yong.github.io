@@ -11,5 +11,5 @@ sidebar_main: False
 ## INFORMATION
 ---
 
-<a href="Yong Chae Kim CV">https://sites.google.com/view/yongchae-kim/home?authuser=0</a>
+[Yong Chae Kim CV](https://sites.google.com/view/yongchae-kim/home?authuser=0)
 
